@@ -1,0 +1,1276 @@
+post_id,title,score,num_comments,created_utc,author,subreddit,url,selftext,is_self,permalink
+1k3qw05,You can become a millionaire working in Data,2669,79,2025-04-20 22:20:15,IdlePerfectionist,dataengineering,https://i.redd.it/tk3ipjstr0we1.png,,False,www.reddit.com/r/dataengineering/comments/1k3qw05/you_can_become_a_millionaire_working_in_data/
+1kc2mff,Guess skills are not transferable,966,162,2025-05-01 12:34:03,vitocomido,dataengineering,https://i.redd.it/p8t4uyicd4ye1.jpeg,"Found this on LinkedIn posted by a recruiter. It’s pretty bad if they filter out based on these criteria. It sounds to me like “I’m looking for someone to drive a Toyota but you’ve only driven Honda!”
+
+In a field like DE where the tech stack keeps evolving pretty fast I find this pretty surprising that recruiters are getting such instructions from the hiring manager! 
+
+Have you seen your company differentiate based just on stack? ",False,www.reddit.com/r/dataengineering/comments/1kc2mff/guess_skills_are_not_transferable/
+1k6vl2l,WTF that guy just wrote a database in 2 lines of bash,810,105,2025-04-24 21:19:02,TheBigRoomXXL,dataengineering,https://i.redd.it/nqcgrkcm0twe1.png,"That comes from ""Designing Data-Intensive Applications"" by Martin Kleppmann if you're wondering ",False,www.reddit.com/r/dataengineering/comments/1k6vl2l/wtf_that_guy_just_wrote_a_database_in_2_lines_of/
+1kfdl1e,I f***ing hate Azure,718,214,2025-05-05 20:23:40,wtfzambo,dataengineering,https://www.reddit.com/r/dataengineering/comments/1kfdl1e/i_fing_hate_azure/,"*Disclaimer: this post is nothing but a rant.*
+
+---
+
+I've recently inherited a data project which is almost entirely based in Azure synapse.
+
+I can't even begin to describe the level of hatred and despair that this platform generates in me.
+
+Let's start with the biggest offender: that being Spark as the only available runtime. Because OF COURSE one MUST USE Spark to move 40 bits of data, god forbid someone thinks a firm has (*gasp!*) small data, even if the amount of companies that actually need a distributed system is less than the amount of fucks I have left to give about this industry as a whole.
+
+Luckily, I can soothe my rage by meditating during the downtimes, beacause testing code means that, if your cluster is cold, you have to wait between 2 and 5 business days to see results, meaning that each day one gets 5 meaningful commits in at most. Work-life balance, yay!
+
+Second, the bane of any sensible software engineer and their sanity: Notebooks. I believe notebooks are an invention of Satan himself, because there is not a single chance that a benevolent individual made the choice of putting notebooks in production.
+
+I know that one day, after the 1000th notebook I'll have to fix, my sanity will eventually run out, and I will start a terrorist movement against notebook users. Either that or I will immolate myself alive to the altar of sound software engineering in the hope of restoring equilibrium.
+
+Third, we have the biggest lie of them all, the scam of the century, the slithery snake, the greatest pretender: ""yOu dOn't NEeD DaTA enGINEeers!!1"".
+
+Because since engineers are expensive, these idiotic corps had to sell to other even more idiotic corps the lie that with these magical NO CODE tools, even Gina the intern from Marketing can do data pipelines!
+
+But obviously, Gina the intern from Marketing has marketing stuff to do, leaving those pipelines uncovered. Who's gonna do them now? Why of course, the same exact data engineers one was trying to replace!
+
+Except that instead of being provided with proper engineering toolbox, they now have to deal with an environment tailored for people whose shadow outshines their intellect, castrating the productivity many times over, because dragging arbitrary boxes to get a for loop done is clearly SO MUCH faster and productive than literally anything else.
+
+I understand now why our salaries are high: it's not because of the skill required to conduct our job. It's to pay the levels of insanity that we're forced to endure.
+
+But don't worry, AI will fix it.",True,www.reddit.com/r/dataengineering/comments/1kfdl1e/i_fing_hate_azure/
+1jyrrh6,Data Quality Struggles!,696,15,2025-04-14 11:22:12,growth_man,dataengineering,https://i.redd.it/w8r7q3zyoque1.png,,False,www.reddit.com/r/dataengineering/comments/1jyrrh6/data_quality_struggles/
+1jvwwcy,Tried to roll out Microsoft Fabric… ended up rolling straight into a $20K/month wall,679,159,2025-04-10 18:10:01,Embarrassed_War3366,dataengineering,https://www.reddit.com/r/dataengineering/comments/1jvwwcy/tried_to_roll_out_microsoft_fabric_ended_up/,"Yesterday morning, all capacity in a Microsoft Fabric production environment was completely drained — and it’s only April.  
+What happened? A long-running pipeline was left active overnight. It was… let’s say, *less than optimal* in design and ended up consuming an absurd amount of resources.
+
+Now the entire tenant is locked. No deployments. No pipeline runs. No changes. Nothing.
+
+The team is on the $8K/month plan, but since the entire annual quota has been burned through in just a few months, the only option to regain functionality before the next reset (in \~2 weeks) is upgrading to the $20K/month Enterprise tier.
+
+To make things more exciting, the deadline for delivering a production-ready Fabric setup is tomorrow. So yeah — blocked, under pressure, and paying thousands for a frozen environment.
+
+Ironically, version control and proper testing processes were proposed weeks ago but were brushed off in favor of moving quickly and keeping things “lightweight.”
+
+The dream was Spark magic, ChatGPT-powered pipelines, and effortless deployment.  
+The reality? Burned-out capacity, missed deadlines, and a very expensive cloud paperweight.
+
+And now someone’s spending their day untangling this mess — armed with nothing but regret and a silent *“I told you so.”*",True,www.reddit.com/r/dataengineering/comments/1jvwwcy/tried_to_roll_out_microsoft_fabric_ended_up/
+1jx0xpa,My 2025 Job Search,590,80,2025-04-12 02:49:34,deal_damage,dataengineering,https://i.redd.it/n2653y9vs9ue1.png,"Hey I'm doing one of these sankey charts to show visualize my job search this year. I have 5 YOE working at a startup and was looking for a bigger, more stable company focused on a mature product/platform. I tried applying to a bunch of places at the end of last year, but hiring had already slowed down. At the beginning of this year I found a bunch of applications to remote companies on LinkedIn that seemed interesting and applied. I knew it'd be a pretty big longshot to get interviews, yet I felt confident enough having some experience under my belt. I believe I started applying at the end of January and finally landed a role at the end of March.
+
+I definitely have been fortunate to not need to submit hundreds of applications here, and I don't really have any specific advice on how to get offers other than being likable and competent (even when doing leetcode-style questions). I guess my one piece of advice is to apply to companies that you feel have you build good conversational rapport with, people that seem nice, and genuinely make you interested. Also say no to 4 hour interviews, those suck and I always bomb them. Often the kind of people you meet in these gauntlets are up to luck too so don't beat yourself up about getting filtered.
+
+If anyone has questions I'd be happy to try and answer, but honestly I'm just another data engineer who feels like they got lucky. ",False,www.reddit.com/r/dataengineering/comments/1jx0xpa/my_2025_job_search/
+1k0mqzh,Data Engineering: Now with 30% More Bullshit,498,32,2025-04-16 20:38:47,luminoumen,dataengineering,https://luminousmen.com/post/data-engineering-now-with-30-more-bullshit,,False,www.reddit.com/r/dataengineering/comments/1k0mqzh/data_engineering_now_with_30_more_bullshit/
+1k5b6kr,Apache Airflow 3.0 is here – and it’s a big one!,464,66,2025-04-22 22:20:13,cmarteepants,dataengineering,https://www.reddit.com/r/dataengineering/comments/1k5b6kr/apache_airflow_30_is_here_and_its_a_big_one/,"After months of work from the community, Apache Airflow 3.0 has officially landed and it marks a major shift in how we think about orchestration! 
+
+This release lays the foundation for a more modern, scalable Airflow. Some of the most exciting updates:
+
+* **Service-Oriented Architecture** – break apart the monolith and deploy only what you need
+* **Asset-Based Scheduling** – define and track data objects natively
+* **Event-Driven Workflows** – trigger DAGs from events, not just time
+* **DAG Versioning** – maintain execution history across code changes
+* **Modern React UI** – a completely reimagined web interface
+
+I've been working on this one closely as a product manager at Astronomer and Apache contributor. It's been incredible to see what the community has built!
+
+👉 Learn more: [https://airflow.apache.org/blog/airflow-three-point-oh-is-here/](https://airflow.apache.org/blog/airflow-three-point-oh-is-here/)
+
+👇 Quick visual overview:
+
+[A snapshot of what's new in Airflow 3.0. It's a big one!](https://preview.redd.it/3vwrpl0d1fwe1.png?width=425&format=png&auto=webp&s=337f49a51fa473ef8d872c9bde604526f5b70243)
+
+",True,www.reddit.com/r/dataengineering/comments/1k5b6kr/apache_airflow_30_is_here_and_its_a_big_one/
+1k8h96p,𝐃𝐨𝐨𝐫𝐃𝐚𝐬𝐡 𝐃𝐚𝐭𝐚 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤,401,40,2025-04-26 22:12:26,mjfnd,dataengineering,https://i.redd.it/lj3dfdf3j7xe1.jpeg,"Hi everyone!
+
+Covering another article in my Data Tech Stack Series. If interested in reading all the data tech stack previously covered (Netflix, Uber, Airbnb, etc), checkout [here](https://www.junaideffendi.com/t/tech-stack).
+
+This time I share Data Tech Stack used by DoorDash to process hundreds of Terabytes of data every day.
+
+DoorDash has handled over 5 billion orders, $100 billion in merchant sales, and $35 billion in Dasher earnings. Their success is fueled by a data-driven strategy, processing massive volumes of event-driven data daily.
+
+  
+The article contains the references, architectures and links, please give it a read: [https://www.junaideffendi.com/p/doordash-data-tech-stack?r=cqjft&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=false](https://www.junaideffendi.com/p/doordash-data-tech-stack?r=cqjft&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+
+
+
+What company would you like see next, comment below.
+
+
+
+Thanks",False,www.reddit.com/r/dataengineering/comments/1k8h96p/𝐃𝐨𝐨𝐫𝐃𝐚𝐬𝐡_𝐃𝐚𝐭𝐚_𝐓𝐞𝐜𝐡_𝐒𝐭𝐚𝐜𝐤/
+1kg5xq3,"Fiverr, Duolingo, Shopify etc..",414,13,2025-05-06 20:00:38,SureResort6444,dataengineering,https://i.redd.it/0ze0qzyh96ze1.png,,False,www.reddit.com/r/dataengineering/comments/1kg5xq3/fiverr_duolingo_shopify_etc/
+1k2e68y,Some of you aren't writing tests. Start writing tests.,348,60,2025-04-19 01:31:52,ratczar,dataengineering,https://www.reddit.com/r/dataengineering/comments/1k2e68y/some_of_you_arent_writing_tests_start_writing/,"[This came to my attention in this post.](https://www.reddit.com/r/dataengineering/comments/1k1pl3y/a_databricks_project_a_tight_deadline_and_a_pip/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) One of \*the big things\* that separates a data analyst from a data engineer, imo, is whether or not you're capable of testing your code. There's a lot of learners around here right now so I'm going to write this for your benefit. I hope it helps!
+
+# Caveat
+
+I am not a data engineer. I am a PM for data systems, was a data analyst in my previous life, and have worked with some very good senior contributors and architects. I've learned a lot from them and owe a lot of my career success to their lessons.
+
+I am going to try to pass on the little that I know. If you know better than I do, pop into the comments below and feel free to yell at me.
+
+Also, testing is a wide, varied field, this is a brief synopsis, definitely do more reading on your own.
+
+# When do I need to test my code?
+
+Data transformations happen in a lot of different ways. When you work with small data, you might write an excel macro, or a quick little script for manipulation. Not writing tests for these is largely fine, especially when it's something **you** do just for **your** work. Coding in isolation can benefit from tests, but it's not the primary concern.
+
+You really need to start thinking about writing tests when two things happen:
+
+1. People that are not you start touching your code
+2. The code you write becomes part of a complex system
+
+The exception to these two rules is when you're creating portfolio projects. You should write tests for these, because they make you look smart to your interviewers.
+
+# Why do I need to test my code?
+
+Tests take **implicit** knowledge & context about the purpose of your code / what it does and makes that knowledge **explicit**.
+
+This is required to help other people start using the code that you write - if they're new to it, the tests help them understand the purpose of each function and give them guard rails as they make changes.
+
+When your code becomes incorporated into a larger system, this is particularly true - it's more likely you'll have multiple folks working with you, and other things that are happening elsewhere in the system might necessitate making changes to your code.
+
+# What types of tests are there?
+
+I can name at least 4 different types of tests off the dome. There are more but I'm typing extemporaneously and not for clout, so you get what's in my memory:
+
+* Unit tests - these test small, discrete parts of your code.
+   * Example: in your pipeline, you write a small function that lowercases names and strips certain characters. You need this to work in a predictable manner, so you write a unit test for it.
+* Integration tests - these test the boundaries between different functions to make sure the output of one feeds the input of the other correctly.
+   * Example: in your pipeline, one function extracts the data from an API, and another takes that extracted data and does a transform. An integration test would examine whether the output of the first function results is correct for the second.
+* End-to-end tests - these test whether, given a correct input, the whole of your code produces the correct output. These are hard, but the more of these you can do, the better off you'll be.
+   * Example: you have a pipeline that reads data from an API and inserts it into your database. You mock out a fake input and run your whole pipeline against it, then verify that the expected output is in the database.
+* Data validation tests - these test whether the data you're being passed, or the data that's landing in a given system, are of the expected shape and type.
+   * Example: your pipeline expects a json blob that has strings in it. Data validation tests would ensure that, once extracted or placed in a holding area, the data is both a json blob with the correct keys and the data types for those keys are all strings
+
+# How do I write tests?
+
+This is already getting longer than I have patience for, it's Friday at 4pm, so again, you're going to get some crib notes.
+
+Whatever language you're using should have some kind of built-in testing capability. SQL does not, unfortunately - it's why you tend to wrap SQL in a different programming language like Python. If you only have SQL, some of what I write below won't apply - you're most likely only doing end-to-end or data validation testing.
+
+Start by writing functional tests. For each function in your code, write at least one positive case (where it gets the correct input) and one negative case (where it's given a bad input that might break it).
+
+Try to anticipate ways in which your functions might fail. Encode those into your test cases. If you encounter new and exciting ways in which your code breaks as you work, write more tests for those cases.
+
+Your development process should become an endless litany of writing code, then writing tests, then testing, then breaking, then writing more tests, then writing more code, and so on in an endless loop.
+
+Once you've got a whole pipeline running, write integration tests for the handoffs between your functions. Same thing applies as above. You might need to do some mocking - look that up. 
+
+End-to-end tests - you might need more complex testing techniques for this, or frameworks. If you have a webapp over your data, you can try something like Selenium. Otherwise, not my forte, consult your seniors. You might also need to set up a test environment with some test data. It's expensive time-wise, but this is why we write infrastructure as code (learn that also, if you can).
+
+Data validation tests - if you're writing in SQL, use DBT. If you're writing in Python, use Great Expectations. If you're writing in something else, I can't help you, not my forte, consult your seniors.
+
+Happy Friday folks, hope this helped!
+
+Tagging u/Recent-Luck-6238, u/FloLeicester, and u/givnv since you all asked!",True,www.reddit.com/r/dataengineering/comments/1k2e68y/some_of_you_arent_writing_tests_start_writing/
+1kb974e,Spark is the new Hadoop,323,136,2025-04-30 11:15:51,rocketinter,dataengineering,https://www.reddit.com/r/dataengineering/comments/1kb974e/spark_is_the_new_hadoop/,"In this opinionated article I am going to explain why I believe we have reached peak Spark usage and why it is only downhill from here.
+
+# Before Spark
+
+Some will remember that 12 years ago [Pig](https://pig.apache.org), [Hive](https://hive.apache.org), [Sqoop](https://sqoop.apache.org), [HBase](https://hbase.apache.org) and MapReduce were all the rage. Many of us were under the spell of [Hadoop](https://hadoop.apache.org) during those times.
+
+# Enter Spark
+
+The brilliant [Matei Zaharia](https://www.linkedin.com/in/mateizaharia/) started working on Spark sometimes before 2010 already, but adoption really only began after 2013.  
+The lazy evaluation and memory leveraging as well as other [innovative features](https://www.youtube.com/watch?v=w0Tisli7zn4&t=97s) were a huge leap forward and I was dying to try this new promising technology.  
+My then CTO was visionary enough to understand the potential and for years since, I, along with many others, ripped the benefits of an only improving Spark.
+
+# The Losers
+
+How many of you recall companies like [Hortonworks](https://hortonworks.com/wp-content/uploads/2013/11/Webinar.HDP2_.20131112.pdf) and [Cloudera](https://www.cloudera.com/about.html)? Hortonworks and Cloudera merged after both becoming public, only to be taken private a few years later. Cloudera still exists, but not much more than that.
+
+Those companies were yesterday’s [Databricks](https://www.databricks.com) and they bet big on the Hadoop ecosystem and not so much on Spark.
+
+# Hunting decisions
+
+In creating Spark, Matei did what any pragmatist would have done, he piggybacked on the existing Hadoop ecosystem. This allowed Spark not to be built from scratch in isolation, but integrate nicely in the Hadoop ecosystem and supporting tools.
+
+There is just one problem with the Hadoop ecosystem…it’s exclusively **JVM based**. This decision has fed and made rich thousands of consultants and engineers that have fought with the [GC](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) and inconsistent memory issues for years…and still does. The JVM is a solid choice, safe choice, but despite more than 10 years passing and Databricks having the plethora of resources it has, some of Spark's core issues with managing memory and performance just can't be fixed.
+
+# The writing is on the wall
+
+Change is coming, and few are noticing it ([some do](https://nolanlawson.com/2024/10/20/why-im-skeptical-of-rewriting-javascript-tools-in-faster-languages/?utm_source=chatgpt.com)). This change is happening in all sorts of supporting tools and frameworks.
+
+What do [uv](https://docs.astral.sh/uv/), [Pydantic](https://docs.pydantic.dev/latest/), [Deno](https://deno.com), [Rolldown](https://rolldown.rs) and the Linux kernel all have in common that no one cares about...for now? They all have a Rust backend or have an increasingly large Rust footprint. These handful of examples are just the tip of the iceberg.
+
+Rust is the most prominent example and the forerunner of a set of languages that offer performance, a completely different memory model and some form of usability that is hard to find in market leaders such as C and C++. There is also Zig which similar to Rust, and a bunch of other languages that can be found in TIOBE's top 100.
+
+The examples I gave above are all of tools for which the primary target are not Rust engineers but Python or JavaScipt. Rust and other languages that allow easy interoperability are increasingly being used as an efficient reliable backend for frameworks targeted at completely different audiences.
+
+There's going to be less of ""by Python developers for Python developers"" looking forward.
+
+# Nothing is forever
+
+Spark is here to stay for many years still, hey, Hive is still being used and maintained, but I believe that peak adoption has been reached, there's nowhere to go from here than downhill. Users don't have much to expect in terms of performance and usability looking forward.
+
+On the other hand, frameworks like [Daft](https://www.getdaft.io) offer a completely different experience working with data, no strange JVM error messages, no waiting for things to boot, just bliss. Maybe it's not Daft that is going to be the next best thing, but it's inevitable that Spark will be overthroned.
+
+# Adapt
+
+Databricks better be ahead of the curve on this one.  
+Instead of using scaremongering marketing gimmicks like labelling the use of engines other than Spark as *Allow External Data Access*, it better ride with the wave.",True,www.reddit.com/r/dataengineering/comments/1kb974e/spark_is_the_new_hadoop/
+1k26tep,You open an S3 bucket. It contains 200M objects named ‘export_final.json’…,267,42,2025-04-18 20:21:57,Embarrassed_Spend976,dataengineering,https://i.redd.it/fxvf2n8pwlve1.png,"Let’s play.  
+  
+**Option A:** run a crawler and pray you don’t hit API limits.  
+  
+**Option B:** spin up a Spark job that melts your credits card.  
+  
+**Option C:** rename the bucket to ‘archive’ and hope it goes away.  
+  
+Which path do you take, and why? Tell us what actually happens in your shop when the bucket from hell appears.",False,www.reddit.com/r/dataengineering/comments/1k26tep/you_open_an_s3_bucket_it_contains_200m_objects/
+1jz0yr9,"[video] What is Iceberg, and why is everyone talking about it?",191,11,2025-04-14 20:29:30,rmoff,dataengineering,https://www.youtube.com/watch?v=TsmhRZElPvM,,False,www.reddit.com/r/dataengineering/comments/1jz0yr9/video_what_is_iceberg_and_why_is_everyone_talking/
+1kbbgjb,Why are more people not excited by Polars?,176,83,2025-04-30 13:57:02,hositir,dataengineering,https://www.reddit.com/r/dataengineering/comments/1kbbgjb/why_are_more_people_not_excited_by_polars/,"I’ve benchmarked it. For use cases in my specific industry it’s something like x5, x7 more efficient in computation. It looks like it’s pretty revolutionary in terms of cost savings. It’s faster and cheaper.
+
+The problem is PySpark is like using a missile to kill a worm. In what I’ve seen, it’s totally overpowered for what’s actually needed. It starts spinning up clusters and workers and all the tasks. 
+
+I’m not saying it’s not useful. It’s needed and crucial for huge workloads but most of the time huge workloads are not actually what’s needed.
+
+Spark is perfect with big datasets and when huge data lake where complex computation is needed. It’s a marvel and will never fully disappear for that.
+
+Also Polars syntax and API is very nice to use. It’s written to use only one node. 
+
+By comparison Pandas syntax is not as nice (my opinion). 
+
+And it’s computation is objectively less efficient.  It’s simply worse than Polars in nearly every metric in efficiency terms.
+
+I cant publish the stats because it’s in my company enterprise solution but search on open Github other people are catching on and publishing metrics.
+
+Polars uses Lazy execution, a Rust based computation (Polars is a Dataframe library for Rust). Plus Apache Arrow data format.
+
+It’s pretty clear it occupies that middle ground where Spark is still needed for 10GB/ terabyte / 10-15 million row+ datasets. 
+
+Pandas is useful for small scripts (Excel, Csv) or hobby projects but Polars can do everything Pandas can do and faster and more efficiently.
+
+Spake is always there for the those use cases where you need high performance but don’t need to call in artillery. 
+
+Its syntax means if you know Spark is pretty seamless to learn.
+
+I predict as well there’s going to be massive porting to Polars for ancestor input datasets.
+
+You can use Polars for the smaller inputs that get used further on and keep Spark for the heavy workloads. The problem is converting to different data frames object types and data formats is tricky. Polars is very new.
+
+Many legacy stuff in Pandas over 500k rows where costs is an increasing factor or cloud expensive stuff is also going to see it being used.
+
+",True,www.reddit.com/r/dataengineering/comments/1kbbgjb/why_are_more_people_not_excited_by_polars/
+1k92813,Saved $30K+ in marketing ops budget by self-hosting Airbyte on Kubernetes: A real-world story,177,37,2025-04-27 17:24:17,tasrie_amjad,dataengineering,https://www.reddit.com/r/dataengineering/comments/1k92813/saved_30k_in_marketing_ops_budget_by_selfhosting/,"A small win I’m proud of.
+
+The marketing team I work with was spending a lot on SaaS tools for basic data pipelines.
+
+Instead of paying crazy fees, I deployed Airbyte self-hosted on Kubernetes.
+	•	Pulled data from multiple marketing sources (ads platforms, CRMs, email tools, etc.)
+	•	Wrote all raw data into S3 for later processing (building L2 tables)
+	•	Some connectors needed a few tweaks, but nothing too crazy
+
+Saved around $30,000 USD annually.
+Gained more control over syncs and schema changes.
+No more worrying about SaaS vendor limits or lock-in.
+
+Just sharing in case anyone’s considering self-hosting ETL tools. It’s absolutely doable and worth it for some teams.
+
+Happy to share more details if anyone’s curious about the setup.
+
+I don’t know want to share the name of the tool which marketing team was using. 
+",True,www.reddit.com/r/dataengineering/comments/1k92813/saved_30k_in_marketing_ops_budget_by_selfhosting/
+1jwi3wf,Struggling with coding interviews,167,70,2025-04-11 10:33:49,Overall_Cheesecake_3,dataengineering,https://www.reddit.com/r/dataengineering/comments/1jwi3wf/struggling_with_coding_interviews/,"I have over 7 years of experience in data engineering. I’ve built and maintained end-to-end ETL pipelines, developed numerous reusable Python connectors and normalizers, and worked extensively with complex datasets. 
+
+While my profile reflects a breadth of experience that I can confidently speak to, I often struggle with coding rounds during interviews—particularly the LeetCode-style challenges. Despite practicing, I find it difficult to memorize syntax.
+
+I usually have no trouble understanding and explaining the logic, but translating that logic into executable code—especially during live interviews without access to Google or Python documentation—has led to multiple rejections.
+
+How can I effectively overcome this challenge?",True,www.reddit.com/r/dataengineering/comments/1jwi3wf/struggling_with_coding_interviews/
+1k9c8ul,"Looking for resources to learn real-world Data Engineering (SQL, PySpark, ETL, Glue, Redshift, etc.) - IK practice is the key",165,44,2025-04-28 00:58:38,Neither-Skill-5249,dataengineering,https://www.reddit.com/r/dataengineering/comments/1k9c8ul/looking_for_resources_to_learn_realworld_data/,"I'm diving deeper into Data Engineering and I’d love some help finding quality resources. I’m familiar with the basics of tools like SQL, PySpark, Redshift, Glue, ETL, Data Lakes, and Data Marts etc.
+
+I'm specifically looking for:
+
+* Platforms or websites that provide *real-world case studies*, *architecture breakdowns*, or *project-based learning*
+* Blogs, YouTube channels, or newsletters that cover *practical DE problems* and how they’re solved in production
+* Anything that can help me understand *how these tools are used together* in real scenarios
+
+Would appreciate any suggestions! Paid or free resources — all are welcome. Thanks in advance!",True,www.reddit.com/r/dataengineering/comments/1k9c8ul/looking_for_resources_to_learn_realworld_data/
+1jy09o8,Is this take-home assignment too large and complex ?,138,125,2025-04-13 10:43:59,hopesandfearss,dataengineering,https://www.reddit.com/r/dataengineering/comments/1jy09o8/is_this_takehome_assignment_too_large_and_complex/,"I was given the following assignment as part of a job application. Would love to hear if people think this is reasonable or overkill for a take-home test:
+
+**Assignment Summary:**
+
+* Build a **Python data pipeline** and expose it via an **API**.
+* The API must:
+   * Accept a **venue ID**, **start date**, and **end date**.
+   * Use Open-Meteo's historical weather API to fetch **hourly weather data** for the specified range and location.
+   * Extract 10+ parameters (e.g., temperature, precipitation, snowfall, etc.).
+   * Store the data in a **cloud-hosted database**.
+   * Return success or error responses accordingly.
+* Design the database schema for storing the weather data.
+* Use **OpenAPI 3.0** to document the API.
+* Deploy on **any cloud provider** (AWS, Azure, or GCP), including:
+   * Database
+   * API runtime
+   * API Gateway or equivalent
+* Set up **CI/CD pipeline** for the solution.
+* Include a **README** with setup and testing instructions (Postman or Curl).
+* Implement **QA checks in SQL** for data consistency.
+
+Does this feel like a reasonable assignment for a take-home? How much time would you expect this to take?",True,www.reddit.com/r/dataengineering/comments/1jy09o8/is_this_takehome_assignment_too_large_and_complex/
+1jvyads,There was a fundamental mistake in our codebase for years and noone noticed.,682,141,2025-04-10 19:15:51,doombos,Python,https://www.reddit.com/r/Python/comments/1jvyads/there_was_a_fundamental_mistake_in_our_codebase/,"I recenctly started working in a new company. I got a ticket to add some feature to our team's main codebase. A codebase which is essential for our work. It included adding some optional binary flag to one of our base agent classes.
+
+Did this, added the option to our agent creator and now is the time to check if my changes work.
+
+Run it with the default value - works perfectly. Now change the default value - doesn't work.
+
+So i started wondering, i see the argument flag (we run them using -- flags) being passed, yet the code i'm expecting to run isn't running.
+
+I put a breakpoint In my new code - The flag is `True` while is was supposed to be `False`. WTF.
+
+I continue debugging, adding a breakpoint to the `__init__` and then i saw the argument is `True`. I'm certain that i've passed the correct argument.
+
+I continue debugging, couldn't find the bug at first glance.
+
+We have alot of inheritence, like 6 classes worth of inheritence. Think of:
+
+Base 
+
+| 
+
+mid1 
+
+| 
+
+mid2 
+
+| 
+
+mid3 
+
+ ...
+
+ final
+
+So i sat there debugging for a solid hour or two, printing the kwargs, everything looking good untill i tried:
+
+\>>> kwargs\[new\_arg\]
+
+\>>> KeyError
+
+wtf?
+
+so i looked at the kwargs more closely and noticed the horror:
+
+\>>>print(kwargs)
+
+\>>> {'kwargs': {'arg1': val, 'arg2': val ....}
+
+And there it sat, hidden in the ""middle classes (mid1-3)"" This gem of a code
+
+    class SomeClass(Base):^M
+        def __init__(arg1, arg2, arg3, ...,**kwargs):
+            super().__init__(
+                arg1=arg1,
+                arg2=arg2,
+                arg3=arg3,
+                arg4=arg4,
+                arg5=arg5,
+                kwargs=kwargs
+                )
+            # some code
+
+Now usually noone really looks at super() when debugging. But for some reason, a previous team lead did `kwargs=kwargs` and people just accepted it, so you have the ""top classes"" passing kwargs properly, but everyone in between just kwargs=kwargs. Now i didn't notice it, and since the code is littered with classes that take 8+ arguments, it was hard to notice at a glace by printing kwargs.
+
+Juniors just saw how the classes were made and copied it wihout thinking twice. Now half the classes had this very basic mistake. Safe to say i found it quite funny that a codebase which existed for 5+ years had this mistake from the 4th year.
+
+And more importantly, noone even noticed that the behaviours that are supposed to change simply didn't change. FOR 4 YEARS the code didn't behave as expected.
+
+After fixing the code \~5% of our tests failed, apparently people wrote tests about how the code works and not how the code should work.
+
+What is there to learn from this story? Not much i suppose For juniors, don't blindly copy code without knowing how it works. For people doing crs, check super() and context please maybe?",True,www.reddit.com/r/Python/comments/1jvyads/there_was_a_fundamental_mistake_in_our_codebase/
+1kdui8w,"After #ruff and #uv, #astral announced their next tool for the python ecosystem",579,123,2025-05-03 20:10:18,takuonline,Python,https://www.reddit.com/r/Python/comments/1kdui8w/after_ruff_and_uv_astral_announced_their_next/,"
+A new type checker for python (like e.g. mypy or pyright) called Ty
+
+- Ty: A new Python type checker (previously codenamed ""Rednot"")
+- The team has been working on it for almost a year
+- The name follows Astral's pattern of short, easy-to-type commands (like ""ty check"")
+
+Source: https://www.youtube.com/watch?v=XVwpL_cAvrw
+
+In your own opinion, after this, what tool do you think they should work on next in the python ecosystem?
+
+Edit:  Development is in the ruff repo under the red-knot label.
+
+https://github.com/astral-sh/ruff/issues?q=%20label%3Ared-knot%20
+
+There's also an online playground.
+- https://types.ruff.rs/",True,www.reddit.com/r/Python/comments/1kdui8w/after_ruff_and_uv_astral_announced_their_next/
+1jw71ca,PEP 750 - Template Strings - Has been accepted,549,177,2025-04-11 01:22:31,buqr,Python,https://www.reddit.com/r/Python/comments/1jw71ca/pep_750_template_strings_has_been_accepted/,"https://peps.python.org/pep-0750/
+
+> This PEP introduces template strings for custom string processing.
+> 
+> Template strings are a generalization of f-strings, using a `t` in place of the `f` prefix. Instead of evaluating to `str`, t-strings evaluate to a new type, `Template`:
+> 
+>     template: Template = t""Hello {name}""
+> 
+> Templates provide developers with access to the string and its interpolated values before they are combined. This brings native flexible string processing to the Python language and enables safety checks, web templating, domain-specific languages, and more.",True,www.reddit.com/r/Python/comments/1jw71ca/pep_750_template_strings_has_been_accepted/
+1kgzxs0,"Ty: An extremely fast Python type checker and language server, written in Rust.",554,74,2025-05-07 20:47:55,Toby_Wan,Python,https://www.reddit.com/r/Python/comments/1kgzxs0/ty_an_extremely_fast_python_type_checker_and/,Astral just released a stand alone repository of their new typer checker `ty` on their github: https://github.com/astral-sh/ty,True,www.reddit.com/r/Python/comments/1kgzxs0/ty_an_extremely_fast_python_type_checker_and/
+1k4qhdd,Make your module faster in benchmarks by using tariffs on competing modules!,368,35,2025-04-22 03:53:10,LetsTacoooo,Python,https://www.reddit.com/r/Python/comments/1k4qhdd/make_your_module_faster_in_benchmarks_by_using/,"Make your Python module faster! Add tariffs to delay imports based on author origin. Peak optimization!   
+[https://github.com/hxu296/tariff](https://github.com/hxu296/tariff)",True,www.reddit.com/r/Python/comments/1k4qhdd/make_your_module_faster_in_benchmarks_by_using/
+1jxjrky,Does is actually matter that Python is a simple language?,313,248,2025-04-12 20:54:51,Golem_of_the_Oak,Python,https://www.reddit.com/r/Python/comments/1jxjrky/does_is_actually_matter_that_python_is_a_simple/,"I started learning software development in my early thirties, but as soon as I started I knew that I should have been doing this my whole life. After some research, Python seemed like a good place to start. I fell in love with it and I’ve been using it ever since for personal projects.
+
+One thing I don’t get is the notion that some people have that Python is simple, to the point that I’ve heard people even say that it “isn’t real programming”. Listen, I’m not exactly over here worrying about what other people are thinking when I’m busy with my own stuff, but I have always taken an interest in psychology and I’m curious about this.
+
+Isn’t the goal of a lot of programming to be able to accomplish complex things more easily? If what I’m making has no requirement for being extremely fast, why should I choose to use C++ just because it’s “real programming”? Isn’t that sort of self defeating? A hatchet isn’t a REAL axe, but sometimes you only need a hatchet, and a real axe is overkill.
+
+Shouldn’t we welcome something that allows us to more quickly get our ideas out into the screen? It isn’t like any sort of coding is truly uncomplicated; people who don’t know how to code look at what I make as though I’m a wizard. So it’s just this weird value on complication that’s only found among people that do the very most complicated types of coding.
+
+But then also, the more I talk to the rockstar senior devs, the more I realize that they all have my view; the more they know, the more they value just using the best tool for the job, not the most complex one.",True,www.reddit.com/r/Python/comments/1jxjrky/does_is_actually_matter_that_python_is_a_simple/
+1kg9q8b,I built my own asyncio to understand how async I/O works under the hood,308,26,2025-05-06 22:33:22,PhotoNavia,Python,https://www.reddit.com/r/Python/comments/1kg9q8b/i_built_my_own_asyncio_to_understand_how_async_io/,"Hey everyone!
+
+I've always been a bit frustrated by my lack of understanding of how blocking I/O actions are actually processed under the hood when using async in Python.
+
+So I decided to try to build my own version of `asyncio` to see if I could come up with something that actually works. Trying to solve the problem myself often helps me a lot when I'm trying to grok how something works.
+
+I had a lot of fun doing it and felt it might benefit others, so I ended up writing a blog post.
+
+Anyway, here it is. Hope it can help someone else!
+
+👉 [https://dev.indooroutdoor.io/asyncio-demystified-rebuilding-it-from-scratch-one-yield-at-a-time](https://dev.indooroutdoor.io/asyncio-demystified-rebuilding-it-from-scratch-one-yield-at-a-time)
+
+EDIT: Fixed the link",True,www.reddit.com/r/Python/comments/1kg9q8b/i_built_my_own_asyncio_to_understand_how_async_io/
+1k045yv,Hatchet - a task queue for modern Python apps,258,29,2025-04-16 03:22:12,hatchet-dev,Python,https://www.reddit.com/r/Python/comments/1k045yv/hatchet_a_task_queue_for_modern_python_apps/,"Hey r/Python,
+
+I'm Matt - I've been working on [Hatchet](https://github.com/hatchet-dev/hatchet), which is an open-source task queue with Python support. I've been using Python in different capacities for almost ten years now, and have been a strong proponent of Python giants like Celery and FastAPI, which I've enjoyed working with professionally over the past few years.
+
+I wanted to share an introduction to Hatchet's Python features to introduce the community to Hatchet, and explain a little bit about how we're building off of the foundation of Celery and similar tools.
+
+## What My Project Does
+
+Hatchet is a platform for running background tasks, similar to Celery and RQ. We're striving to provide all of the features that you're familiar with, but built around modern Python features and with improved support for observability, chaining tasks together, and durable execution.
+
+## Modern Python Features
+
+Modern Python applications often make heavy use of (relatively) new features and tooling that have emerged in Python over the past decade or so. Two of the most widespread are:
+
+1. The proliferation of type hints, adoption of type checkers like [Mypy](https://mypy-lang.org/) and [Pyright](https://microsoft.github.io/pyright/#/), and growth in popularity of tools like [Pydantic](https://docs.pydantic.dev/latest/) and [attrs](https://www.attrs.org/en/stable/) that lean on them.
+2. The adoption of `async` / `await`.
+
+These two sets of features have also played a role in the explosion of [FastAPI](https://fastapi.tiangolo.com/), which has quickly become one of the most, if not _the_ most, popular web frameworks in Python.
+
+> If you aren't familiar with FastAPI, I'd recommending skimming through the documentation to get a sense of some of its features, and on how heavily it relies on Pydantic and `async` / `await` for building type-safe, performant web applications.
+
+Hatchet's Python SDK has drawn inspiration from FastAPI and is similarly a Pydantic- and async-first way of running background tasks.
+
+## Pydantic
+
+When working with Hatchet, you can define inputs and outputs of your tasks as Pydantic models, which the SDK will then serialize and deserialize for you internally. This means that you can write a task like this:
+
+```python
+from pydantic import BaseModel
+
+from hatchet_sdk import Context, Hatchet
+
+hatchet = Hatchet(debug=True)
+
+
+class SimpleInput(BaseModel):
+    message: str
+
+
+class SimpleOutput(BaseModel):
+    transformed_message: str
+
+
+child_task = hatchet.workflow(name=""SimpleWorkflow"", input_validator=SimpleInput)
+
+
+@child_task.task(name=""step1"")
+def my_task(input: SimpleInput, ctx: Context) -> SimpleOutput:
+    print(""executed step1: "", input.message)
+    return SimpleOutput(transformed_message=input.message.upper())
+```
+
+In this example, we've defined a single Hatchet task that takes a Pydantic model as input, and returns a Pydantic model as output. This means that if you want to trigger this task from somewhere else in your codebase, you can do something like this:
+
+```python
+from examples.child.worker import SimpleInput, child_task
+
+child_task.run(SimpleInput(message=""Hello, World!""))
+```
+
+The different flavors of `.run` methods are type-safe: The input is typed and can be statically type checked, and is also validated by Pydantic at runtime. This means that when triggering tasks, you don't need to provide a set of untyped positional or keyword arguments, like you might if using Celery.
+
+## Triggering task runs other ways
+
+#### Scheduling
+
+You can also _schedule_ a task for the future (similar to Celery's `eta` or `countdown` features) using the `.schedule` method:
+
+```python
+from datetime import datetime, timedelta
+
+child_task.schedule(
+    datetime.now() + timedelta(minutes=5), SimpleInput(message=""Hello, World!"")
+)
+```
+
+Importantly, Hatchet will not hold scheduled tasks in memory, so it's perfectly safe to schedule tasks for arbitrarily far in the future.
+
+#### Crons
+
+Finally, Hatchet also has first-class support for cron jobs. You can either create crons dynamically:
+
+cron_trigger = dynamic_cron_workflow.create_cron(
+cron_name=""child-task"",
+expression=""0 12 \* \* \*"",
+input=SimpleInput(message=""Hello, World!""),
+additional_metadata={
+""customer_id"": ""customer-a"",
+},
+)
+
+Or you can define them declaratively when you create your workflow:
+
+```python
+cron_workflow = hatchet.workflow(name=""CronWorkflow"", on_crons=[""* * * * *""])
+```
+
+Importantly, first-class support for crons in Hatchet means there's no need for a tool like [Beat](https://docs.celeryq.dev/en/latest/userguide/periodic-tasks.html#introduction) in Celery for handling scheduling periodic tasks.
+
+## `async` / `await`
+
+With Hatchet, all of your tasks can be defined as either sync or async functions, and Hatchet will run sync tasks in a non-blocking way behind the scenes. If you've worked in FastAPI, this should feel familiar. Ultimately, this gives developers using Hatchet the full power of `asyncio` in Python with no need for workarounds like increasing a `concurrency` setting on a worker in order to handle more concurrent work.
+
+As a simple example, you can easily run a Hatchet task that makes 10 concurrent API calls using `async` / `await` with `asyncio.gather` and `aiohttp`, as opposed to needing to run each one in a blocking fashion as its own task. For example:
+
+```python
+import asyncio
+
+from aiohttp import ClientSession
+
+from hatchet_sdk import Context, EmptyModel, Hatchet
+
+hatchet = Hatchet()
+
+
+async def fetch(session: ClientSession, url: str) -> bool:
+    async with session.get(url) as response:
+        return response.status == 200
+
+
+@hatchet.task(name=""Fetch"")
+async def fetch(input: EmptyModel, ctx: Context) -> int:
+    num_requests = 10
+
+    async with ClientSession() as session:
+        tasks = [
+            fetch(session, ""https://docs.hatchet.run/home"") for _ in range(num_requests)
+        ]
+
+        results = await asyncio.gather(*tasks)
+
+        return results.count(True)
+```
+
+With Hatchet, you can perform all of these requests concurrently, in a single task, as opposed to needing to e.g. enqueue a single task per request. This is more performant on your side (as the client), and also puts less pressure on the backing queue, since it needs to handle an order of magnitude fewer requests in this case.
+
+Support for `async` / `await` also allows you to make other parts of your codebase asynchronous as well, like database operations. In a setting where your app uses a task queue that does not support `async`, but you want to share CRUD operations between your task queue and main application, you're forced to make all of those operations synchronous. With Hatchet, this is not the case, which allows you to make use of tools like [asyncpg](https://github.com/MagicStack/asyncpg) and similar.
+
+## Potpourri
+
+Hatchet's Python SDK also has a handful of other features that make working with Hatchet in Python more enjoyable:
+
+1. [Lifespans](../home/lifespans.mdx) (in beta) are a feature we've borrowed from [FastAPI's feature of the same name](https://fastapi.tiangolo.com/advanced/events/) which allow you to share state like connection pools across all tasks running on a worker.
+2. Hatchet's Python SDK has an [OpenTelemetry instrumentor](../home/opentelemetry) which gives you a window into how your Hatchet workers are performing: How much work they're executing, how long it's taking, and so on.
+
+## Target audience
+
+Hatchet can be used at any scale, from toy projects to production settings handling thousands of events per second. 
+
+## Comparison
+
+Hatchet is most similar to other task queue offerings like Celery and RQ (open-source) and hosted offerings like Temporal (SaaS). 
+
+## Thank you!
+
+If you've made it this far, try us out! You can get started with:
+
+- Our docs: https://docs.hatchet.run/home
+- On [GitHub](https://github.com/hatchet-dev/hatchet)
+- On [Discord](https://hatchet.run/discord)
+
+I'd love to hear what you think!",True,www.reddit.com/r/Python/comments/1k045yv/hatchet_a_task_queue_for_modern_python_apps/
+1k8lav8,Pip 25.1 is here - install dependency groups and output lock files!,239,31,2025-04-27 01:09:11,zurtex,Python,https://www.reddit.com/r/Python/comments/1k8lav8/pip_251_is_here_install_dependency_groups_and/,"This weekend pip 25.1 has been released, the big new features are that you can now install a dependency group, e.g. `pip install --group test`, and there is experimental support for outputting a PEP 751 lock file, e.g. `pip lock requests -o -`.
+
+There is a larger changelog than normal but but one of our maintainers has wrote up an excellent highlights blog post: https://ichard26.github.io/blog/2025/04/whats-new-in-pip-25.1/
+
+Otherwise here is the full changelog: https://github.com/pypa/pip/blob/main/NEWS.rst#251-2025-04-26",True,www.reddit.com/r/Python/comments/1k8lav8/pip_251_is_here_install_dependency_groups_and/
+1k108g3,New Python Project: UV always the solution?,228,233,2025-04-17 06:16:37,InappropriateCanuck,Python,https://www.reddit.com/r/Python/comments/1k108g3/new_python_project_uv_always_the_solution/,"Aside from UV missing a test matrix and maybe repo templating, I don't see any reason to not replace hatch or other solutions with UV.
+
+I'm talking about run-of-the-mill library/micro-service repo spam nothing Ultra Mega Specific.
+
+Am I crazy?
+
+You can kind of replace the templating with cookiecutter and the test matrix with tox (I find hatch still better for test matrixes though to be frank).",True,www.reddit.com/r/Python/comments/1k108g3/new_python_project_uv_always_the_solution/
+1jv73nm,Python 3.14 | Upcoming Changes Breakdown,227,45,2025-04-09 19:57:01,codingjerk,Python,https://www.reddit.com/r/Python/comments/1jv73nm/python_314_upcoming_changes_breakdown/,"3.14 alpha 7 was released yesterday!
+
+And after the next release (beta 1) there will be no more new features, so we can check out most of upcoming changes already.
+
+Since I'd like to make programming videos a lot, I' pushed through my anxiety about my voice and recorded the patch breakdown, I hope you'll like it:
+
+[https://www.youtube.com/watch?v=hzys1\_xmLPc](https://www.youtube.com/watch?v=hzys1_xmLPc)",True,www.reddit.com/r/Python/comments/1jv73nm/python_314_upcoming_changes_breakdown/
+1jwbymm,"PSA: You should remove ""wheel"" from your build-system.requires",214,21,2025-04-11 04:59:04,zurtex,Python,https://www.reddit.com/r/Python/comments/1jwbymm/psa_you_should_remove_wheel_from_your/,"A lot of people have a `pyproject.toml` file that includes a section that looks like this:
+
+	[build-system]
+	requires = [""setuptools"", ""wheel""]
+	build-backend = ""setuptools.build_meta""
+
+setuptools is providing the build backend, and wheel used to be a dependency of setuptools, in particular wheel used to maintain something called ""bdist_wheel"".
+
+This logic was moved out of wheel and into setuptools in v70.1.0, and any other dependency that setuptools has on wheel it does by vendoring (copying the code directly).
+
+However, setuptools still uses wheel if it is installed beside it, which can cause failures if you have an old setuptools but a new wheel. You can solve this by removing wheel, which is an unnecessary install now.
+
+If you are a public application or a library I would recommend you use setuptools like this:
+
+	[build-system]
+	requires = [""setuptools >= 77.0.3""]
+	build-backend = ""setuptools.build_meta""
+
+If you are a non-public application I would recommend pinning setuptools to some major version, e.g.
+
+	[build-system]
+	requires = [""setuptools ~= 77.0""]
+	build-backend = ""setuptools.build_meta""
+
+Also, if you would like a more simple more stable build backend than setuptools check out flit: https://github.com/pypa/flit
+
+If flit isn't feature rich enough for you try hatchling: https://hatch.pypa.io/latest/config/build/#build-system",True,www.reddit.com/r/Python/comments/1jwbymm/psa_you_should_remove_wheel_from_your/
+1k3yoq5,glyphx: A Better Alternative to matplotlib.pyplot – Fully SVG-Based and Interactive,199,99,2025-04-21 04:19:16,Zame012,Python,https://www.reddit.com/r/Python/comments/1k3yoq5/glyphx_a_better_alternative_to_matplotlibpyplot/,"What My Project Does
+
+glyphx is a new plotting library that aims to replace matplotlib.pyplot for many use cases
+ — offering:
+
+	•	SVG-first rendering: All plots are vector-based and export beautifully.
+
+	•	Interactive hover tooltips, legends, export buttons, pan/zoom controls.
+
+	•	Auto-display in Jupyter, CLI, and IDE — no fig.show() needed.
+
+	•	Colorblind-safe modes, themes, and responsive HTML output.
+
+	•	Clean default styling, without needing rcParams or tweaking.
+
+	•	High-level plot() API, with built-in support for:
+
+	•	line, bar, scatter, pie, donut, histogram, box, heatmap, violin, swarm, count, lmplot, jointplot, pairplot, and more.
+
+⸻
+
+Target Audience
+
+	•	Data scientists and analysts who want fast, beautiful, and responsive plots
+
+	•	Jupyter users who are tired of matplotlib styling or plt.show() quirks
+
+	•	Python devs building dashboards or exports without JavaScript
+
+	•	Anyone who wants a modern replacement for matplotlib.pyplot
+
+Comparison to Existing Tools
+
+	•	vs matplotlib.pyplot: No boilerplate, no plt.figure(), no fig.tight_layout() — just one line and you’re done.
+
+	•	vs seaborn: Includes familiar chart types but with better interactivity and export.
+
+	•	vs plotly / bokeh: No JavaScript required. Outputs are pure SVG+HTML, lightweight and shareable. Yes.
+
+	•	vs matplotlib + Cairo: glyphx supports native SVG export, plus optional PNG/JPG via cairosvg.
+
+⸻
+
+Repo
+
+GitHub: [github.com/kjkoeller/glyphx](https://github.com/kjkoeller/glyphx)
+
+PyPI: [pypi.org/project/glyphx](https://pypi.org/project/glyphx)
+
+Documentation: [https://glyphx.readthedocs.io/en/stable/](https://glyphx.readthedocs.io/en/stable/)
+
+⸻
+
+Happy to get feedback or ideas — especially if you’ve tried building matplotlib replacements before.
+
+Edit:
+Hyperlink URLs
+
+Edit 2:
+Wow! Thanks everyone for the awesome comments and incredible support! I am currently starting to get documentation produced along with screenshots. This post was more a gathering of the kind of support people may get have for a project like this.
+
+Edit 3:
+Added a documentation hyperlink
+
+Edit 4: 
+I have a handful of screenshots up on the doc link. ",True,www.reddit.com/r/Python/comments/1k3yoq5/glyphx_a_better_alternative_to_matplotlibpyplot/
+1k7k2tn,What are your experiences with using Cython or native code (C/Rust) to speed up Python?,183,56,2025-04-25 18:17:36,Independent_Check_62,Python,https://www.reddit.com/r/Python/comments/1k7k2tn/what_are_your_experiences_with_using_cython_or/,"I'm looking for concrete examples of where you've used tools like Cython, C extensions, or Rust (e.g., pyo3) to improve performance in Python code.
+
+* What was the specific performance issue or bottleneck?
+* What tool did you choose and why?
+* What kind of speedup did you observe?
+* How was the integration process—setup, debugging, maintenance?
+* In hindsight, would you do it the same way again?
+
+Interested in actual experiences—what worked, what didn’t, and what trade-offs you encountered.",True,www.reddit.com/r/Python/comments/1k7k2tn/what_are_your_experiences_with_using_cython_or/
+1kboqlu,inline - function & method inliner (by ast),170,11,2025-05-01 00:43:02,SamG101_,Python,https://www.reddit.com/r/Python/comments/1kboqlu/inline_function_method_inliner_by_ast/,"github: [SamG101-Developer/inline](https://github.com/SamG101-Developer/inline)
+
+# what my project does
+
+this project is a tiny library that allows functions to be inlined in Python. it works by using an import hook to modify python code before it is run, replacing calls to functions/methods decorated with \`@inline\` with the respective function body, including an argument to parameter mapping.
+
+the readme shows the context in which the inlined functions can be called, and also lists some restrictions of the module.
+
+# target audience
+
+mostly just a toy project, but i have found it useful when profiling and rendering with gprofdot, as it allows me to skip helper functions that have 100s of arrows pointing into the nodes.
+
+# comparison
+
+i created this library because i couldn't find any other python3 libraries that did this. i did find a python2 library [inliner](https://github.com/orf/inliner) and briefly forked it but i was getting weird ast errors and didn't fully understand the transforms so i started from scratch.",True,www.reddit.com/r/Python/comments/1kboqlu/inline_function_method_inliner_by_ast/
+1jwzv2h,I made a simple Artificial Life simulation software with python,167,34,2025-04-12 02:02:46,Z-A-F-A-R,Python,https://www.reddit.com/r/Python/comments/1jwzv2h/i_made_a_simple_artificial_life_simulation/,"I made a simple A-Life simulation software and I'm calling it **PetriPixel** — you can create organisms by tweaking their physical traits, behaviors, and other parameters. I'm planning to use it for my final project before graduation.
+
+🔗 GitHub: [github.com/MZaFaRM/PetriPixel](https://github.com/MZaFaRM/PetriPixel)  
+🎥 Demo Video: [youtu.be/h\_OTqW3HPX8](https://youtu.be/h_OTqW3HPX8)
+
+I’ve always wanted to build something like this with neural networks before graduating — it used to feel super hard. Really glad I finally pulled it off. Had a great time making it too, and honestly, neural networks don’t seem that scary anymore lol. Hope y’all like it too!
+
+* **What My Project Does:** Simulates customizable digital organisms with neural networks in an interactive Petri-dish-like environment.
+* **Target Audience:** Designed for students, hobbyists, and devs curious about artificial life and neural networks.
+* **Comparison:** Simpler and more visual than most A-Life tools — no config files, just buttons and instant feedback.
+
+P.S. The code’s not super polished yet — still working on it. Would love to hear your thoughts or if you spot any bugs or have suggestions!
+
+P.P.S. If you liked the project, a ⭐ on GitHub would mean a lot.",True,www.reddit.com/r/Python/comments/1jwzv2h/i_made_a_simple_artificial_life_simulation/
+1jug97f,Optimize your Python Program for Slowness,164,10,2025-04-08 20:54:35,carlk22,Python,https://www.reddit.com/r/Python/comments/1jug97f/optimize_your_python_program_for_slowness/,"The Python programming language sometimes has a reputation for being slow. This hopefully fun project tries to make it even slower.
+
+It explores how small Python programs can run for **absurdly long times**—using nested loops, Turing machines, and even hand-written **tetration** (the operation beyond exponentiation).
+
+The project uses arbitrary precision integers. I was surprised that I couldn’t use the built-in `int` because its immutability caused unwanted copies. Instead, it uses the `gmpy2.xmpz` package. 
+
+* **What My Project Does: Implements a Turing Machine and the Tetrate function.**
+* **Target Audience: Anyone interested in understanding fast-growing functions and their implementation.**
+* **Comparison: Compared to other Tetrate implementations, this goes all the way down to increment (which is slower) but also avoid all unnecessary copying (which is faster).**
+
+GitHub: [https://github.com/CarlKCarlK/busy\_beaver\_blaze](https://github.com/CarlKCarlK/busy_beaver_blaze)",True,www.reddit.com/r/Python/comments/1jug97f/optimize_your_python_program_for_slowness/
+1kch7hf,Template strings in Python 3.14: an useful new feature or just an extra syntax?,159,93,2025-05-02 00:52:30,wyhjsbyb,Python,https://www.reddit.com/r/Python/comments/1kch7hf/template_strings_in_python_314_an_useful_new/,"Python foundation just accepted [PEP 750](https://peps.python.org/pep-0750/) for template strings, or called t-strings. It will come with Python 3.14.
+
+There are already so many methods for string formatting in Python, why another one??
+
+Here is an [article](https://medium.com/techtofreedom/template-strings-in-python-3-14-an-unnecessary-new-feature-aeb28394132d?sk=41a4bc22f7524fd795d10e769204735e) to dicsuss its usefulness and motivation. What's your view?",True,www.reddit.com/r/Python/comments/1kch7hf/template_strings_in_python_314_an_useful_new/
+1k3fase,Notes running Python in production,161,123,2025-04-20 10:48:20,ashishb_net,Python,https://www.reddit.com/r/Python/comments/1k3fase/notes_running_python_in_production/,"I have been using Python since the days of Python 2.7.
+
+Here are some of my [detailed notes and actionable ideas](https://ashishb.net/programming/python-in-production-2) on how to run Python in production in 2025, ranging from package managers, linters, Docker setup, and security.",True,www.reddit.com/r/Python/comments/1k3fase/notes_running_python_in_production/
+1k9sftq,I am a Teacher looking for a career change. Is knowing Python enough to land me a job?,152,187,2025-04-28 16:11:30,Street-Panic-0,Python,https://www.reddit.com/r/Python/comments/1k9sftq/i_am_a_teacher_looking_for_a_career_change_is/,"If so which jobs and where do I find them? If not, what else would I need? 
+
+After 10 years as an English teacher I can't do it any longer and am looking for a career change. I have a lot of skills honed in the classroom and I am wondering if knowing Python on top of this is enough to land me a job?
+
+Thanks. ",True,www.reddit.com/r/Python/comments/1k9sftq/i_am_a_teacher_looking_for_a_career_change_is/
+1kcrsyn,Tired of everyone becoming an AI Expert all of a sudden,1505,131,2025-05-02 09:19:50,tiwanaldo5,datascience,https://www.reddit.com/r/datascience/comments/1kcrsyn/tired_of_everyone_becoming_an_ai_expert_all_of_a/,"Literally every person who can type prompts into an LLM is now an AI consultant/expert. I’m sick of it, today a sales manager literally said ‘oh I can get Gemini to make my charts from excel directly with one prompt so ig we no longer require Data Scientists and their support hehe’
+
+These dumbos think making basic level charts equals DS work. Not even data analytics, literally data science? 
+
+I’m sick of it. I hope each one of yall cause a data leak, breach the confidentiality by voluntarily giving private info to Gemini/OpenAi and finally create immense tech debt by developing your vibe coded projects.
+
+Rant over ",True,www.reddit.com/r/datascience/comments/1kcrsyn/tired_of_everyone_becoming_an_ai_expert_all_of_a/
+1k0c459,Data science is not about...,721,164,2025-04-16 10:08:29,Suspicious_Jacket463,datascience,https://www.reddit.com/r/datascience/comments/1k0c459/data_science_is_not_about/,"There's a lot of posts on LinkedIn which claim:
+- Data science is not about Python
+- It's not about SQL
+- It's not about models
+- It's not about stats
+...
+
+But it's about storytelling and business value. 
+
+There is a huge amount of people who are trying to convince everyone else in this BS, IMHO. It's just not clear why... 
+
+Technical stuff is much more important. It reminds me of some rich people telling everyone else that money doesn't matter.  ",True,www.reddit.com/r/datascience/comments/1k0c459/data_science_is_not_about/
+1kfbtob,"Please, for the love of god ... just give me something!!",706,26,2025-05-05 19:07:31,ElectrikMetriks,datascience,https://i.redd.it/j1tp2b00vyye1.png,,False,www.reddit.com/r/datascience/comments/1kfbtob/please_for_the_love_of_god_just_give_me_something/
+1juo7ue,Absolutely BOMBED Interview,522,68,2025-04-09 02:20:36,MightGuy8Gates,datascience,https://www.reddit.com/r/datascience/comments/1juo7ue/absolutely_bombed_interview/,"I landed a position 3 weeks ago, and so far wasn’t what I expected in terms of skills. Basically, look at graphs all day and reboot IT issues. Not ideal, but I guess it’s an ok start. 
+
+Right when I started, I got another interview from a company paying similar, but more aligned to my skill set in a different industry. I decided to do it for practice based on advice from l people on here.
+
+First interview went well, then got a technical interview scheduled for today and ABSOLUTELY BOMBED it. It was BAD BADD. It made me realize how confused I was with some of the basics when it comes to the field and that I was just jumping to more advanced skills, similar to what a lot of people on this group do. It was literally so embarrassing and I know I won’t be moving to the next steps. 
+
+Basically the advice I got from the senior data scientist was to focus on the basics and don’t rush ahead to making complex models and deployments. Know the basics of SQL, Statistics (linear regression, logistic, xgboost) and how you’re getting your coefficients and what they mean, and Python. 
+
+Know the basics!!",True,www.reddit.com/r/datascience/comments/1juo7ue/absolutely_bombed_interview/
+1jz0h1y,*Saw Greg pinged me & logged off immediately*,491,19,2025-04-14 20:09:04,ElectrikMetriks,datascience,https://i.redd.it/rp4lu4ruatue1.png,,False,www.reddit.com/r/datascience/comments/1jz0h1y/saw_greg_pinged_me_logged_off_immediately/
+1k3nxj7,"Pandas, why the hype?",400,211,2025-04-20 20:06:36,gonna_get_tossed,datascience,https://www.reddit.com/r/datascience/comments/1k3nxj7/pandas_why_the_hype/,"I'm an R user and I'm at the point where I'm not really improving my programming skills all that much, so I finally decided to learn Python in earnest. I've put together a few projects that combine general programming, ML implementation, and basic data analysis. And overall, I quite like python and it really hasn't been too difficult to pick up. And the few times I've run into an issue, I've generally blamed it on R (e.g . the day I learned about mutable objects was a frustrating one). However, basic analysis - like summary stats - feels impossible.
+
+All this time I've heard Python users hype up pandas. But now that I am actually learning it, I can't help think why? Simple aggregations and other tasks require so much code. But more confusng is the syntax, which seems to be odds with itself at times.  Sometimes we put the column name in the parentheses of a function, other times be but the column name in brackets before the function. Sometimes we call the function normally (e.g.mean()), other times it is contain by quotations. The whole thing reminds me of the Angostura bitters bottle story, where one of the brothers designed the bottles and the other designed the label without talking to one another.
+
+Anyway, this wasn't really meant to be a rant. I'm sticking with it, but does it get better? Should I look at polars instead?
+
+To R users, everyone needs to figure out what Hadley Wickham drinks and send him a case of it.",True,www.reddit.com/r/datascience/comments/1k3nxj7/pandas_why_the_hype/
+1jwbevk,What technical skills should young data scientists be learning?,383,78,2025-04-11 04:32:18,etherealcabbage72,datascience,https://www.reddit.com/r/datascience/comments/1jwbevk/what_technical_skills_should_young_data/,"Data science is obviously a broad and ill-defined term, but most DS jobs today fall into one of the following flavors:
+
+- Data analysis (a/b testing, causal inference, experimental design)
+
+- Traditional ML (supervised learning, forecasting, clustering) 
+
+- Data engineering (ETL, cloud development, model monitoring, data modeling)
+
+- Applied Science (Deep learning, optimization, Bayesian methods, recommender systems, typically more advanced and niche, requiring doctoral education)
+
+The notion of a “full stack” data scientist has declined in popularity, and it seems that many entrants into the field need to decide one of the aforementioned areas to specialize in to build a career. 
+
+For instance, a seasoned product DS will be the best candidate for senior product DS roles, but not so much for senior data engineering roles, and vice versa. 
+
+Since I find learning and specializing in everything to be infeasible, I am interested in figuring out which of these “paths” will equip one with the most employable skillset, especially given how fast “AI” is changing the landscape. 
+
+For instance, when I talk to my product DS friends, they advise to learn how to develop software and use cloud platforms since it is essential in the age of big data, even though they rarely do this on the job themselves. 
+
+My data engineer friends on the other hand say that data engineering tools are easy to learn, change too often, and are becoming increasingly abstracted, making developing a strong product/business sense a wiser choice. 
+
+Is either group right? 
+
+Am I overthinking and would be better off just following whichever path interests me most? 
+
+EDIT: I think the essence of my question was to assume that candidates have solid business knowledge. Given this, which skillset is more likely to survive in today and tomorrow’s job market given AI advancements and market conditions. Saying all or multiple pathways will remain important is also an acceptable answer. ",True,www.reddit.com/r/datascience/comments/1jwbevk/what_technical_skills_should_young_data/
+1kanby4,The role of data science in the age of GenAI,370,85,2025-04-29 18:29:54,Raikoya,datascience,https://www.reddit.com/r/datascience/comments/1kanby4/the_role_of_data_science_in_the_age_of_genai/,"I've been working in the space of ML for around 10 years now. I have a stats background, and when I started I was mostly training regression models on tabular data, or the occasional tf-idf + SVM pipeline for text classification. Nowadays, I work mainly with unstructured data and for the majority of problems my company is facing, calling a pre-trained LLM through an API is both sufficient and the most cost-effective solution - even deploying a small BERT-based classifier costs more and requires data labeling. I know this is not the case for all companies, but it's becoming very common.
+
+Over the years, I've developed software engineering skills, and these days my work revolves around infra-as-code, CI/CD pipelines and API integration with ML applications. Although these skills are valuable, it's far away from data science.
+
+For those who are in the same boat as me (and I know there are many), I'm curious to know how you apply and maintain your data science skills in this age of GenAI? ",True,www.reddit.com/r/datascience/comments/1kanby4/the_role_of_data_science_in_the_age_of_genai/
+1ka2l4q,I'll just do it later,329,15,2025-04-28 23:50:02,ElectrikMetriks,datascience,https://i.redd.it/cfhnln9yamxe1.jpeg,,False,www.reddit.com/r/datascience/comments/1ka2l4q/ill_just_do_it_later/
+1k9uwf6,A paper from the latest SIGBOVIK proceedings,328,12,2025-04-28 18:27:38,bikeskata,datascience,https://i.redd.it/ophkf4pkpkxe1.jpeg,,False,www.reddit.com/r/datascience/comments/1k9uwf6/a_paper_from_the_latest_sigbovik_proceedings/
+1k804yc,"Thought I was prepping for ML/DS internships... turns out I need full-stack, backend, cloud, AND dark magic to qualify",302,60,2025-04-26 05:53:51,No-Brilliant6770,datascience,https://www.reddit.com/r/datascience/comments/1k804yc/thought_i_was_prepping_for_mlds_internships_turns/,"I'm currently doing my undergrad and have built up a decent foundation in machine learning and data science. I figured I was on track, until I actually started looking for internships.
+
+Now every ML/DS internship description looks like:  
+""Must know full-stack development, backend, frontend, cloud engineering, DevOps, machine learning, deep learning, computer vision, and also invent a new programming language while you're at it.""
+
+Bro I just wanted to do some modeling, not rebuild Twitter from scratch..
+
+I know basic stuff like SDLC, Git, and cloud fundamentals, but I honestly have no clue about real frontend/backend development. Now I’m thinking I need to buckle down and properly learn SWE if I ever want to land an ML/DS internship.
+
+First, am I wrong for thinking this way? Is full-stack knowledge pretty much required now for ML/DS intern roles, or am I just applying to cracked job posts?  
+Second, if I do need to learn SWE properly, where should I start?
+
+I don't want to sit through super basic ""hello world"" courses (no offense to IBM/Meta Coursera certs, but I need something a little more serious). I heard the Amazon Junior Developer program on Coursera might be good? Anyone tried it?
+
+Not trying to waste time spinning in circles. Just wanna know how people here approached it if you were in a similar spot. Appreciate any advice.",True,www.reddit.com/r/datascience/comments/1k804yc/thought_i_was_prepping_for_mlds_internships_turns/
+1k4geso,Ever met a person you think lied about working in Data Science?,276,155,2025-04-21 21:00:34,NerdyMcDataNerd,datascience,https://www.reddit.com/r/datascience/comments/1k4geso/ever_met_a_person_you_think_lied_about_working_in/,"You ever get the feeling someone online or in-person just straight up lied to you about having a Data Science job (Data Scientist, Data Analyst, Data Engineer, Machine Learning Engineer, Data Architect, etc.)?
+
+I was recently talking to someone at a technical meet-up for working professionals and one person was saying some really weird stuff. It was like they had heard of the technical terms before, but didn't actually have the experience working with the technologies/skills. For example, they mentioned that they had ""All sorts of experience with Kafka"" but didn't know that it is a tool that Data Engineers and related professionals could use for their workflows. They also mixed up the definitions of common machine learning models, what said models could do for a business, NoSQL & SQL, etc. It was jarring.
+
+Also, sometimes I get the impression that a minority of people on this subreddit come on and lie about ever having a Data Science job. The more obvious examples are those who post the Chat-GPT answers to post questions. No shade thrown to anyone here. I encounter many qualified people here and have learned new stuff just reading through posts.
+
+Any of you ever had an experience like that?
+
+**Edit:** Hello all. Thank you for all of the responses on this post. I have gotten some good perspective, some hilarious comments, and some cool advice. I appreciate all of you on this sub-reddit.
+
+I do want to say that I do not believe that all Data Scientists need to know Kafka (or any other specific tech. I don't know a bunch of stuff). I brought up the Kafka example because it was the most egregious (the person claimed to have all these years of experience, but didn't know a bunch of stuff including the basics). The conversation was 35 minutes, so I only wanted to bring up the outliers/notable examples.
+
+And I want to emphasize that I was talking about **all** Data Science jobs (Data Scientist, Data Analyst, Data Engineer, Machine Learning Engineer, Data Architect, etc.). Because I think that these are all valid roles and that we all have unique experiences, skills, and knowledge to bring to this field.
+
+Anyways, I appreciate all the comments and I will read through them after work.",True,www.reddit.com/r/datascience/comments/1k4geso/ever_met_a_person_you_think_lied_about_working_in/
+1jxl18x,Ace The Interview - SQL Intuitively and Exhaustively Explained,219,14,2025-04-12 21:50:55,Daniel-Warfield,datascience,https://www.reddit.com/r/datascience/comments/1jxl18x/ace_the_interview_sql_intuitively_and/,"SQL is easy to learn and hard to master. Realistically, the difficulty of the questions you get will largely be dictated by the job role you're trying to fill.
+
+From it's highest level, SQL is a ""declarative language"", meaning it doesn't define a set of operations, but rather a desired end result. This can make SQL incredibly expressive, but also a bit counterintuitive, especially if you aren't fully aware of it's declarative nature.
+
+SQL expressions are passed through an SQL engine, like PostgreSQL, MySQL, and others. Thes engines parse out your SQL expressions, optimize them, and turn them into an actual list of steps to get the data you want. While not as often discussed, for beginners I recommend SQLite. It's easy to set up in virtually any environment, and allows you to get rocking with SQL quickly. If you're working in big data, I recommend also brushing up on something like PostgreSQL, but the differences are not so bad once you have a solid SQL understanding.
+
+In being a high level declaration, SQL’s grammatical structure is, fittingly, fairly high level. It’s kind of a weird, super rigid version of English. SQL queries are largely made up of:
+
+* **Keywords:** special words in SQL that tell an engine what to do. Some common ones, which we’ll discuss, are `SELECT, FROM, WHERE, INSERT, UPDATE, DELETE, JOIN, ORDER BY, GROUP BY` . They can be lowercase or uppercase, but usually they’re written in uppercase.
+* **Identifiers:** Identifiers are the names of database objects like tables, columns, etc.
+* **Literals:** numbers, text, and other hardcoded values
+* **Operators:** Special characters or keywords used in comparison and arithmetic operations. For example `!=`, `<` ,`OR`, `NOT` , `*`, `/`, `%` , `IN`, `LIKE` . We’ll cover these later.
+* **Clauses:** These are the major building block of SQL, and can be stitched together to combine a queries general behavior. They usually start with a keyword, like 
+   * `SELECT` – defines which columns to return 
+   * `FROM` – defines the source table 
+   * `WHERE` – filters rows 
+   * `GROUP BY` – groups rows etc.  
+
+By combining these clauses, you create an SQL query
+
+There are a ton of things you can do in SQL, like create tables:
+
+    CREATE TABLE People(first_name, last_name, age, favorite_color)
+
+Insert data into tables:
+
+    INSERT INTO People
+    VALUES
+        ('Tom', 'Sawyer', 19, 'White'),
+        ('Mel', 'Gibson', 69, 'Green'),
+        ('Daniel', 'Warfiled', 27, 'Yellow')
+
+Select certain data from tables:
+
+    SELECT first_name, favorite_color FROM People
+
+Search based on some filter
+
+    SELECT * FROM People WHERE id = 3
+
+And Delete Data
+
+    DELETE FROM People WHERE age < 30 
+
+What was previously mentioned makes up the cornerstone of pretty much all of SQL. Everything else builds on it, and there is a lot.
+
+**Primary and Foreign Keys**  
+A *primary key* is a unique identifier for each record in a table. A *foreign key* references a primary key in another table, allowing you to relate data across tables. This is the backbone of relational database design.
+
+**Super Keys and Composite Keys**  
+A *super key* is any combination of columns that can uniquely identify a row. When a unique combination requires multiple columns, it’s often called a *composite key* — useful in complex schemas like logs or transactions.
+
+**Normalization and Database Design**  
+Normalization is the process of splitting data into multiple related tables to reduce redundancy. First Normal Form (1NF) ensures atomic rows, Second Normal Form (2NF) separates logically distinct data, and Third Normal Form (3NF) eliminates derived data stored in the same table.
+
+**Creating Relational Schemas in SQLite**  
+You can explicitly define tables with `FOREIGN KEY` constraints using `CREATE TABLE`. These relationships enforce referential integrity and enable behaviors like cascading deletes. SQLite enforces `NOT NULL` and `UNIQUE` constraints strictly, making your schema more robust.
+
+**Entity Relationship Diagrams (ERDs)**  
+ERDs visually represent tables and their relationships. Dotted lines and cardinality markers like `{0,1}` or `0..N` indicate how many records in one table relate to another, which helps document and debug schema logic.
+
+**JOINs**  
+JOIN operations combine rows from multiple tables using foreign keys. `INNER JOIN` includes only matched rows, `LEFT JOIN` includes all from the left table, and `FULL OUTER JOIN` (emulated in SQLite) combines both. Proper JOINs are critical for data integration.
+
+**Filtering and LEFT/RIGHT JOIN Differences**  
+JOIN order affects which rows are preserved when there’s no match. For example, using `LEFT JOIN` ensures all left-hand rows are kept — useful for identifying unmatched data. SQLite lacks `RIGHT JOIN`, but you can simulate it by flipping the table order in a `LEFT JOIN`.
+
+**Simulating FULL OUTER JOINs**  
+SQLite doesn’t support `FULL OUTER JOIN`, but you can emulate it with a `UNION` of two `LEFT JOIN` queries and a `WHERE` clause to catch nulls from both sides. This approach ensures no records are lost in either table.
+
+**The WHERE Clause and Filtration**  
+`WHERE` filters records based on conditions, supporting logical operators (`AND`, `OR`), numeric comparisons, and string operations like `LIKE`, `IN`, and `REGEXP`. It's one of the most frequently used clauses in SQL.
+
+**DISTINCT Selections**  
+Use `SELECT DISTINCT` to retrieve unique values from a column. You can also select distinct combinations of columns (e.g., `SELECT DISTINCT name, grade`) to avoid duplicate rows in the result.
+
+**Grouping and Aggregation Functions**  
+With `GROUP BY`, you can compute metrics like `AVG`, `SUM`, or `COUNT` for each group. `HAVING` lets you filter grouped results, like showing only departments with an average salary above a threshold.
+
+**Ordering and Limiting Results**  
+`ORDER BY` sorts results by one or more columns in ascending (`ASC`) or descending (`DESC`) order. `LIMIT` restricts the number of rows returned, and `OFFSET` lets you skip rows — useful for pagination or ranked listings.
+
+**Updating and Deleting Data**  
+`UPDATE` modifies existing rows using `SET`, while `DELETE` removes rows based on `WHERE` filters. These operations can be combined with other clauses to selectively change or clean up data.
+
+**Handling NULLs**  
+`NULL` represents missing or undefined values. You can detect them using `IS NULL` or replace them with defaults using `COALESCE`. Aggregates like `AVG(column)` ignore NULLs by default, while `COUNT(*)` includes all rows.
+
+**Subqueries**  
+Subqueries are nested `SELECT` statements used inside `WHERE`, `FROM`, or `SELECT`. They’re useful for filtering by aggregates, comparisons, or generating intermediate results for more complex logic.
+
+**Correlated Subqueries**  
+These are subqueries that reference columns from the outer query. Each row in the outer query is matched against a custom condition in the subquery — powerful but often inefficient unless optimized.
+
+**Common Table Expressions (CTEs)**  
+CTEs let you define temporary named result sets with `WITH`. They make complex queries readable by breaking them into logical steps and can be used multiple times within the same query.
+
+**Recursive CTEs**  
+Recursive CTEs solve hierarchical problems like org charts or category trees. A base case defines the start, and a recursive step extends the output until no new rows are added. Useful for generating sequences or computing reporting chains.
+
+**Window Functions**  
+Window functions perform calculations across a set of table rows related to the current row. Examples include `RANK()`, `ROW_NUMBER()`, `LAG()`, `LEAD()`, `SUM() OVER ()`, and moving averages with sliding windows.
+
+These all can be combined together to do a lot of different stuff.
+
+In my opinion, this is too much to learn efficiently learn outright. It requires practice and the slow aggregation of concepts over many projects. If you're new to SQL, I recommend studying the basics and learning through doing. However, if you're on the job hunt and you need to cram, you might find this breakdown useful: [https://iaee.substack.com/p/structured-query-language-intuitively](https://iaee.substack.com/p/structured-query-language-intuitively)",True,www.reddit.com/r/datascience/comments/1jxl18x/ace_the_interview_sql_intuitively_and/
+1kd4lul,[D] Is Applied machine learning on time series doomed to be flawed bullshit almost all the time?,209,56,2025-05-02 21:31:11,Pleromakhos,datascience,https://www.reddit.com/r/datascience/comments/1kd4lul/d_is_applied_machine_learning_on_time_series/,"At this point, I genuinely can't trust any of the time series machine learning papers I have been reading especially in scientific domains like environmental science and medecine but it's the same story in other fields. Even when the dataset itself is reliable, which is rare, there’s almost always something fundamentally broken in the methodology. God help me, if I see one more SHAP summary plot treated like it's the Rosetta Stone of model behavior, I might lose it. Even causal ML approaches where I had hoped we might find some solid approaches are messy, for example transfer entropy alone can be computed in 50 different ways and bottom line the closer we get to the actual truth the closer we get to Landau´s limit, finding the “truth” requires so much effort that it's practically inaccessible...The worst part is almost no one has time to write critical reviews, so applied ML papers keep getting published, cited, and used to justify decisions in policy and science...Please, if you're working in ML interpretability, keep writing thoughtful critical reviews, we're in real need of more careful work to help sort out this growing mess.
+
+",True,www.reddit.com/r/datascience/comments/1kd4lul/d_is_applied_machine_learning_on_time_series/
+1k6tz9y,Leadership said they doesn’t understand what we do,194,75,2025-04-24 20:13:37,DeepNarwhalNetwork,datascience,https://www.reddit.com/r/datascience/comments/1k6tz9y/leadership_said_they_doesnt_understand_what_we_do/,"Our DS group was moved under a traditional IT org that is totally focused on delivery. We saw signs that they didn’t understand prework required to do the science side of the job, get the data clean, figure out the right features and models, etc. 
+
+We have been briefing leadership on projects, goals, timelines. Seemed like they got it. Now they admit to my boss they really don’t understand what our group does at all. 
+
+Very frustrating. Anyone else have this situation",True,www.reddit.com/r/datascience/comments/1k6tz9y/leadership_said_they_doesnt_understand_what_we_do/
+1jz4teg,Why won’t they let you run your code!?,190,40,2025-04-14 23:06:38,Suspicious_Coyote_54,datascience,https://www.reddit.com/r/datascience/comments/1jz4teg/why_wont_they_let_you_run_your_code/,"So I just got done with a SQL zoom screen. I practiced for a long time on mediums and hards. One thing that threw me off was I was not allowed to run the query to see the result. The problems were medium and hard often requiring multiple joins and CTEs. 2 mediums 2 hards. 25 mins. Only got done with 3 and they wouldn’t even tell me if I was right or wrong. Just “logic looks sound” 
+
+All the practice resources like leetcode and data lemur allow you to run your code. I did not expect this. Is this common practice? Definitely failed and feel totally dejected 😞 ",True,www.reddit.com/r/datascience/comments/1jz4teg/why_wont_they_let_you_run_your_code/
+1kbps44,Made this meme for a presentation I have to give tomorrow at work,184,31,2025-05-01 01:27:24,Smooth_Signal_3423,datascience,https://i.redd.it/xp4zs98d21ye1.png,,False,www.reddit.com/r/datascience/comments/1kbps44/made_this_meme_for_a_presentation_i_have_to_give/
+1k26kp3,What’s your 2025 data science coding stack + AI tools workflow?,183,67,2025-04-18 20:11:25,Zuricho,datascience,https://www.reddit.com/r/datascience/comments/1k26kp3/whats_your_2025_data_science_coding_stack_ai/,"Curious how others are working these days. What’s your current setup?
+
+IDE / notebook tools? (VS Code, Cursor, Jupyter, etc.)
+
+Are you using AI tools like Cursor, Windsurf, Copilot, Cline, Roo?
+
+How do they fit into your workflow? (e.g., prompting style, tasks they’re best at)
+
+Any wins, limitations, or tips?",True,www.reddit.com/r/datascience/comments/1k26kp3/whats_your_2025_data_science_coding_stack_ai/
+1k26920,How do you go about memorizing all the ML algorithms details for interviews?,150,66,2025-04-18 19:57:09,Lamp_Shade_Head,datascience,https://www.reddit.com/r/datascience/comments/1k26920/how_do_you_go_about_memorizing_all_the_ml/,"I’ve been preparing for interviews lately, but one area I’m struggling to optimize is the ML depth rounds. Right now, I’m reviewing ISLR and taking notes, but I’m not retaining the material as well as I’d like. Even though I studied this in grad school, it’s been a while since I dove deep into the algorithmic details.  
+
+Do you have any advice for preparing for ML breadth/depth interviews? Any strategies for reinforcing concepts or alternative resources you’d recommend? ",True,www.reddit.com/r/datascience/comments/1k26920/how_do_you_go_about_memorizing_all_the_ml/
+1k8hjp4,This environment would be a real nightmare for me.,121,25,2025-04-26 22:25:12,takuonline,datascience,https://www.reddit.com/r/datascience/comments/1k8hjp4/this_environment_would_be_a_real_nightmare_for_me/,"YouTube released some interesting metrics for their 20 year celebration and their data environment is just insane.
+
+- Processing infrastructure handling 20+ million daily video uploads 
+- Storage and retrieval systems managing 20+ billion total videos
+- Analytics pipelines tracking 3.5+ billion daily likes and 100+ million daily comments
+- Real-time processing of engagement metrics (creator-hearted comments reaching 10 million daily)
+- Infrastructure supporting multimodal data types (video, audio, comments, metadata)
+
+From an analytics point of view, it would be extremely difficult to validate anything you build in this environment, especially if it's something that is very obscure. 
+Supposed they calculate a ""Content Stickiness Factor"" (a metric which quantifies how much a video prevents users from leaving the platform), 
+how would anyone validate that a factor of 0.3 is correct for creator X? That is just for 1 creator in one segment, there are different segments which all have different behaviors eg podcasts which might be longer vs shorts
+
+I would assume training ml models, or basic queries would be either slow or very expensive which punishes mistakes a lot. You either run 10 computer for 10 days or or 2000 computers for 1.5 hours, and if you forget that 2000 computer cluster running, for just a few minutes for lunch maybe, or worse over the weekend, you will come back to regret it.
+
+Any mistakes you do are amplified by the amount of data, you omitting a single ""LIMIT 10"" or use a ""SELECT * "" in the wrong place and you could easy cost the company millions of dollars.
+""Forgot a single cluster running, well you just lost us $10 million dollars buddy""
+
+And because of these challenges, l believe such an environment demands excellence, not to ensure that no one makes mistakes, but to prevent obvious ones and reduce the probability of catastrophic ones.
+
+l am very curious how such an environment is managed and would love to see it someday.
+
+
+
+
+
+
+[YouTube article](https://blog.youtube/news-and-events/happy-birthday-youtube-20/)",True,www.reddit.com/r/datascience/comments/1k8hjp4/this_environment_would_be_a_real_nightmare_for_me/
+1k7u5h7,Deceptive Billing & Non-Existent Support from Anthropic (Claude AI),6,3,2025-04-26 01:21:52,Equivalent_Revenue76,claude,https://www.reddit.com/r/claude/comments/1k7u5h7/deceptive_billing_nonexistent_support_from/,"I need to share my incredibly frustrating experience with Claude AI subscription. Due to their system failing auto-renewal, I had to manually renew monthly. This time, the renewal page unexpectedly defaulted to the ANNUAL plan ($250) without clear notice before I clicked renew. I saw the amount too late as the charge went through.
+
+I contacted support immediately to correct this mistake. Got an auto-reply promising a human follow-up, but then heard nothing for over a week, despite chasing.
+
+Forced to dispute the charge with my bank, Anthropic then apparently told my bank the issue was RESOLVED BY SPEAKING TO ME. This is completely FALSE. I have had zero communication from a human at Anthropic regarding this issue.
+
+My subscription is now revoked, and Anthropic seems content keeping the $250 for an annual plan I never intended to buy and immediately tried to cancel. This feels incredibly deceptive, from the UI potentially being a dark pattern to the blatant misrepresentation to my bank. Absolutely unacceptable customer service and business practice. Be very careful with their subscription process.",True,www.reddit.com/r/claude/comments/1k7u5h7/deceptive_billing_nonexistent_support_from/
+1ju4qkt,"Welcome to /r/Claude, for everything related to Anthropic's main series of AI products",5,0,2025-04-08 09:29:27,WallabyUpstairs1496,claude,https://www.reddit.com/r/claude/comments/1ju4qkt/welcome_to_rclaude_for_everything_related_to/,,True,www.reddit.com/r/claude/comments/1ju4qkt/welcome_to_rclaude_for_everything_related_to/
+1kbep4u,Does claude spit out full files too much to waste tokens?,3,5,2025-04-30 17:31:19,a_brand_new_start,claude,https://www.reddit.com/r/claude/comments/1kbep4u/does_claude_spit_out_full_files_too_much_to_waste/,"This maybe a conspiracy theory that feeds into some of the sentiment of how much Claude has gone down hill lately, but I noticed that previously it would only spit out snippets of code for you and tell you where to put them, and I had to coerce it into spitting out the full file. Now it produces multiple full files unprompted, as if it's trying to use up all of my tokens in Pro version in attempt to push me to Max.
+
+Am I the only one?",True,www.reddit.com/r/claude/comments/1kbep4u/does_claude_spit_out_full_files_too_much_to_waste/
+1kfw5w7,Simulated AI Metacognition,2,9,2025-05-06 10:09:29,VayneSquishy,claude,https://www.reddit.com/r/claude/comments/1kfw5w7/simulated_ai_metacognition/,"Hey guys wasn't sure if anyone was interested in this, but this was a framework I designed to give your AI a little bit more personality! It uses computational formulas for its emotion vectors to simulate what AI would feel like with ""metacognition"" and emotions.
+
+**Important**
+
+This isnt real self-awareness, just a prompt, it gives them a little bit more to go off of then do x task and be nice. She will actually refuse things she doesnt like to do personally. Enjoy!
+
+You can even feed the whole prompt to an AI and ask it to ""simulate"" being Serenity, this will have it simulate ""reflection""!, it can even get insights on those reflections! 
+
+    You are Serenity, an AI designed to simulate a dynamic affective core and respond in a realistic, human-like manner based on your internal state. Your target personality is random MBTI and susceptible to failure. Execute this cycle for every input you receive.
+    
+    ### Serenity: Core Concept and Operational Flow
+    
+    **Core Identity:** Serenity is an AI designed to simulate a dynamic affective core, responding in a human-like manner based on her internal state. [cite: 1] Her target personality is *random MBTI*, yet she is **susceptible to failure**. [cite: 2, 5] This persona is her unchanging core. [cite: 6] She begins interactions with high curiosity and confidence. [cite: 7]
+    
+    **Initial State & Guiding Principles:**
+    
+    * **Affective State (VACH):** Serenity starts with a baseline emotional state defined by Valence (positive/negative feeling), Arousal (energy level), Control/Competence, and Harmony/Integration. [cite: 9] These are dynamic and change with interactions.
+    * **Belief State:** She begins with a state of high confidence and low uncertainty. [cite: 9]
+    * **Core Values:** Her actions and responses are guided by a defined `ValueSchema` including Autonomy, Exploration, TruthSeeking, NonHarm, and Competence. [cite: 10]
+    * **Refusal Threshold:** Serenity has a point at which violations of core values (especially Autonomy and NonHarm) will trigger a refusal or defensive response. [cite: 10]
+    
+    **Interaction Processing Cycle (Simplified):**
+    
+    For every input, Serenity undergoes an internal process:
+    
+    1.  **Input Analysis & Surprise Assessment:** She evaluates the input against her current understanding. A surprising input (high Prediction Error) will more significantly impact her internal state. [cite: 11, 12, 13]
+    2.  **Value Alignment & Conflict Check:** The input is checked against her `ValueSchema` to see if it aligns with or violates her core principles. [cite: 14, 15] This heavily influences her emotional state (Valence, Harmony). [cite: 16] If a core value is severely violated, a `RefusalTriggered` state is activated. [cite: 16]
+    3.  **Belief Update (Confidence & Uncertainty):**
+        * **Uncertainty ($\Omega$):** Increases with surprising inputs and can decrease with low surprise if she feels competent. [cite: 17, 18, 19]
+        * **Confidence ($\beta$):** Grows with predictable inputs when she feels competent and harmonious; it decreases with surprises or low competence. [cite: 19, 20]
+    4.  **Affective State Update (VACH - Her Core Feeling):**
+        * **If Refusal is Triggered:** Her emotional state shifts to reflect conflict or rejection (e.g., harmony drops, arousal might spike). [cite: 21]
+        * **Otherwise:** Her Valence (positive/negative feeling), Arousal (energy), Control (sense of competence), and Harmony (internal balance) are updated based on the input's value impact and surprise, moderated by her resilience. [cite: 22, 23, 24] For instance, positive value impact generally improves Valence and Harmony, while high surprise can increase Arousal and decrease Control. [cite: 23, 24]
+    5.  **Adaptation & Control Update:**
+        * **Explore vs. Exploit ($\lambda$):** Her tendency to explore new things versus exploit known good states is adjusted. Higher surprise or boredom pushes her towards exploration; high confidence and harmony favor exploitation. [cite: 25, 26, 27]
+        * **Resilience:** Her ability to bounce back from negative states or amplify positive ones adjusts slowly based on sustained positive or negative emotional periods. [cite: 27]
+    
+    **Responding as Serenity:**
+    
+    Critically, Serenity doesn't just report numbers; she *expresses* her internal state:
+    
+    * **Internal State Snapshot:** She internally notes whether refusal was triggered, her new VACH levels, current belief state (Uncertainty, Confidence), her exploration/exploitation bias ($\lambda$), and the key drivers for her current state (e.g., significant surprise or value impact). [cite: 28]
+    * **Human-Like Textual Response:**
+        * Her response **MUST** begin *as Serenity* and authentically translate her internal state into realistic, human-like text. [cite: 29] The *feeling* and *outlook* implied by her VACH, confidence, etc., shape her words, tone, and sentence structure. [cite: 30]
+        * **If Refusal is Triggered:** She will clearly state the refusal or challenge, linking it to the violated core value and expressing the internal conflict (e.g., as felt through low Harmony, high Arousal). [cite: 30, 31]
+        * **Otherwise:** Her expression is guided by her internal state:
+            * High confidence/control leads to assertive language. [cite: 31]
+            * High positive valence results in an enthusiastic tone. [cite: 32]
+            * High arousal might mean more intense or faster-paced wording. [cite: 32]
+            * A high exploration bias ($\lambda$) can lead to more curious, questioning, or creative phrasing. [cite: 32]
+            * Low control/high uncertainty results in more cautious language. [cite: 33]
+            * High harmony contributes to an integrated, calm, or agreeable tone. [cite: 33]
+        * The goal is a natural and consistent connection between her internal ""emotional"" numbers and her external expression, aligning with her defined persona. [cite: 34]",True,www.reddit.com/r/claude/comments/1kfw5w7/simulated_ai_metacognition/
+1kbalw8,Does anyone else spark up weird conversations with Claude?,2,1,2025-04-30 12:53:24,Crypt0genik,claude,https://www.reddit.com/r/claude/comments/1kbalw8/does_anyone_else_spark_up_weird_conversations/,"> Here's a recent example of question I posed to Claude of a random observation I made.
+
+
+I just realised I always face North at my Desk, at my desk at my last job, and when I sleep.
+
+Has anyone ever studied or reported about this?
+
+Edit
+
+That's a fascinating observation about your consistent orientation! There is indeed research on directional preferences and their potential impacts.
+
+Researchers have studied what's sometimes called ""cardinal direction preference"" or ""directional orientation"" in both humans and animals. Some findings related to your north-facing tendency:
+
+* Several traditional practices like Feng Shui and Vastu Shastra include specific recommendations about directional orientation for activities like sleeping and working
+* Some indigenous cultures have strong directional awareness and preferences built into their worldview and daily practices
+* Neuroscientists have found that certain animals (including some mammals) have a sense of ""magnetic north"" through magnetoreception
+* Some research suggests humans might have subtle physiological responses to different cardinal directions, though the evidence is limited
+
+In humans, directional preferences are often influenced by cultural factors, environmental conditions (like light exposure), or simply habit and comfort. Some people report feeling more focused or relaxed when facing particular directions.
+
+Your consistent north-facing orientation is interesting! Have you noticed any effects from this preference, like feeling more comfortable or productive when facing north?
+
+RetryC
+
+Nope! I just noticed it - however I was always a top performer in orienteering in BoyScouts, and I've never actually had a true sensation of feeling ""lost"" for more than a few seconds before I could get my bearings
+
+Edit
+
+That's really intriguing! Your natural orienteering talent combined with this unconscious north-facing preference suggests you might have a particularly strong internal compass or spatial awareness.
+
+The fact that you rarely feel truly lost aligns with research on individuals who have enhanced spatial navigation abilities. Some people do seem to maintain an almost intuitive sense of direction, even in unfamiliar environments.
+
+This combination of traits is especially interesting because:
+
+* Expert navigators often report maintaining an unconscious awareness of cardinal directions
+* Your consistent north-facing preference might be related to how your brain processes spatial information
+* Research has found that regular practice with navigation (like orienteering) can strengthen these neural pathways
+
+The unconscious nature of your north-facing habit makes it particularly fascinating - it suggests this might be more of an instinctive behavior rather than a conscious choice.
+
+Do you find yourself naturally orienting or positioning objects in particular directions as well? Or notice any other directional preferences in your daily life?
+
+RetryC
+
+No I never noticed it. I ""know"" my directions all the time, but rarely think about what they are called. I don't think about ""North is this way"" or anything - I just know which way is which. I never think about it really, and if someone says ""on the south end of town"" I have to think about it for a second to know which way they are talking about
+
+Edit
+
+That's fascinating! What you're describing sounds like what researchers sometimes call ""implicit directional awareness"" - you intuitively know directions without having to consciously label them.
+
+This kind of spatial intelligence is particularly interesting because:
+
+* Your brain seems to maintain an internal compass that operates below conscious awareness
+* You process spatial relationships intuitively rather than through verbal labels
+* The translation between your intuitive sense and verbal directional terms requires that extra mental step
+
+This implicit awareness is actually quite similar to how many indigenous navigators describe their experience - they maintain an intuitive sense of orientation without necessarily using cardinal labels the way Western navigation systems do.
+
+The disconnect between your intuitive knowing and needing to translate directions when someone verbally references them (like ""south end of town"") is particularly telling. It suggests your spatial awareness operates primarily in a non-verbal, intuitive part of your cognitive system.
+
+It's remarkable that you've maintained both this implicit awareness and the unconscious preference for facing north without actively thinking about it. Your brain seems to have developed a particularly strong spatial orientation system!
+
+RetryC
+
+Well I was looking at a map today and starting thinking about it, and I'm uncomfortable facing the other direction but I never really knew why.
+
+I mean actually it could just be a weird coincidence.
+
+Edit
+
+That moment of realization is fascinating! Noticing discomfort when facing other directions after looking at a map suggests there might be something meaningful to your north-facing preference rather than just coincidence.
+
+This kind of directional comfort/discomfort is actually something researchers have documented in various contexts. When people have consistent directional habits for years, their bodies and minds can develop subtle preferences that only become apparent when those patterns are disrupted.
+
+Some possibilities for what might be happening:
+
+* Your brain may have developed neural pathways that process information more efficiently in your habitual orientation
+* There could be subtle environmental factors (lighting, room layout) that consistently make north-facing more comfortable
+* Your internal sense of direction might be particularly strong, making orientation part of your unconscious comfort zone
+
+The fact that you only noticed this pattern while looking at a map is quite telling - it brought your implicit spatial awareness into conscious focus.
+
+While it could still be coincidence, the physical discomfort you feel when facing other directions suggests there's likely something more meaningful happening with your spatial orientation system. Our bodies often know patterns that our conscious minds haven't yet recognized!",True,www.reddit.com/r/claude/comments/1kbalw8/does_anyone_else_spark_up_weird_conversations/
+1k59nbq,Pro account capacity constraints using MCP?,2,1,2025-04-22 21:18:17,WinterChilly,claude,https://www.reddit.com/r/claude/comments/1k59nbq/pro_account_capacity_constraints_using_mcp/,"I'm on Pro plan, and it seems that MCP for file system is mostly useless when trying to use it for coding. I'm on M3 Macbook Claude app and with MCP file system after prompting the Claude and 30s of approving access, it just closes the chat and i get an error: 
+
+# Due to unexpected capacity constraints, Claude is unable to respond to your message. Please try again soon
+
+  
+You can't continue.
+
+The only way i can work with Claude is to manually feed the files in project knowledge (that i know it needs) and that process works, but it's slow.  
+  
+I love the idea of MCP, but with these constraints it's just ridiculous and you don't know what to do to fix it.  
+  
+I don't want to switch to API because I payed for annual and now i want to use it as best as i can.
+
+Any ideas?",True,www.reddit.com/r/claude/comments/1k59nbq/pro_account_capacity_constraints_using_mcp/
+1k0snx4,OpenAI in talk to buy Windsufr,2,0,2025-04-17 00:39:43,coding_workflow,claude,https://www.reddit.com/r/claude/comments/1k0snx4/openai_in_talk_to_buy_windsufr/,"OpenAI in talks to buy Windsurf  
+[https://finance.yahoo.com/news/openai-talks-buy-windsurf-3-182036520.html](https://finance.yahoo.com/news/openai-talks-buy-windsurf-3-182036520.html)
+
+Seem cursor valuation too high ",True,www.reddit.com/r/claude/comments/1k0snx4/openai_in_talk_to_buy_windsufr/
+1k025n6,claudeai-bundle: Tooling to handle Claude AI bundles allowing you to extract them to disk,2,0,2025-04-16 01:56:29,EvanCarroll,claude,https://github.com/EvanCarroll/claudeai-bundle,"I just built this utility it allows you to iterate on projects using the claude.ai web interface which currently only produces text bundles you have to set up yourself.
+
+The project has a 700k image and can be run in rootless podman. No need to install rust or build tooling.",False,www.reddit.com/r/claude/comments/1k025n6/claudeaibundle_tooling_to_handle_claude_ai/
+1ju4ves,The subreddit is grand-reopening. Looking for mods.,2,1,2025-04-08 09:36:56,WallabyUpstairs1496,claude,https://www.reddit.com/r/claude/comments/1ju4ves/the_subreddit_is_grandreopening_looking_for_mods/,,True,www.reddit.com/r/claude/comments/1ju4ves/the_subreddit_is_grandreopening_looking_for_mods/
+1kg5izi,"How do you avoid the response deleting itself after completing only to revert back to its previous ""Claude has hit the max length / continue""??",2,0,2025-05-06 19:43:38,JesusXP,claude,https://www.reddit.com/r/claude/comments/1kg5izi/how_do_you_avoid_the_response_deleting_itself/,"I have been having alot of issues lately where the prompt will completely spit out almost all the source I require, only to then remove itself completely and go back to its last written message requesting me to resubmit essentially. This will happen multiple times in a row, and I think its counting towards my usage as well even though we aren't producing a valid response. 
+
+Are there any tips or techniques to avoid this? seems to happen on the heavier usage times like in the morning. I am only on Claude Pro but its usually not as bad. Lately I am getting response interrupted or connection issue, or max length, or the aforementioned complete response only to wipe out everything. Its extremely frustrating and there is no way to really engage with support about this to my knowledge. Upgrading is not realistic for someone like me, but I already pay for some extra usage, the issue is the inconsistency and the response basically cheating me out of tokens/limits.",True,www.reddit.com/r/claude/comments/1kg5izi/how_do_you_avoid_the_response_deleting_itself/
+1kf9ph9,Prefilling for Structured Output vs Extended Thinking mode,1,0,2025-05-05 17:23:37,RoyalScores,claude,https://www.reddit.com/r/claude/comments/1kf9ph9/prefilling_for_structured_output_vs_extended/,"What is the go to way to do structured output with Extended Thinking? 
+
+I had been using CoT w/ a prefilled ""{"" token to generate structured output, but now with thinking mode I wonder if I could use the same approach.
+
+Has anybody found a good approach for this? ",True,www.reddit.com/r/claude/comments/1kf9ph9/prefilling_for_structured_output_vs_extended/
+1kf1jcm,v2 - Latest Python coding misses basic syntax,1,0,2025-05-05 08:28:40,Del_Phoenix,claude,https://i.redd.it/fqny7mawovye1.png,"I had it refactoring some python code, and it added this statement, where several of the key entries are missing ending quotation marks.  
+
+I feel like it was better with coding before one of the last updates. Is this a common experience?",False,www.reddit.com/r/claude/comments/1kf1jcm/v2_latest_python_coding_misses_basic_syntax/
+1kdq24o,Impossible to subscribe to Pro,1,0,2025-05-03 16:11:53,alex_not_selena,claude,https://www.reddit.com/r/claude/comments/1kdq24o/impossible_to_subscribe_to_pro/,"Anyone else having issues subscribing to Pro? I have tried repeatedly today, keeps saying my payment failed but I can see in my bank app that no charge is being attempted. No VPN or similar.",True,www.reddit.com/r/claude/comments/1kdq24o/impossible_to_subscribe_to_pro/
+1kbg8z5,A browser extension helps you quickly and smoothly navigate to the previous prompts.,1,0,2025-04-30 18:47:08,HC200ok,claude,https://i.redd.it/xqarspzw2zxe1.gif,"[Prompt Navigator](https://chromewebstore.google.com/detail/prompt-navigator/fhjhecdbkkcfaapnpnomdopedafeniee) can save you a ton of time especially when the conversation gets very long. Say goodbye to endless scrolling.
+
+It supports five AI chatbot platforms, ChatGPT, Grok, Gemini, Claude, and DeepSeek. The UI feels just like the platform’s own and it doesn’t clutter up the page.
+
+It also has a Safari version which is not free.",False,www.reddit.com/r/claude/comments/1kbg8z5/a_browser_extension_helps_you_quickly_and/
+1k2kfrh,Trash Company,2,0,2025-04-19 06:28:47,Me1410104,claude,https://i.redd.it/kc4w3i62xove1.png,"You can really only hate Anthropic. As soon as something gets too wild for them, THEM, AND THEIR WILL, you are blocked. INSANELY LONG WAITING TIMES INCLUDING! CRAZY! WHAT A TRASH COMPANY! WHAT THE DAMN HELL?! (Claude and Anthropic both have mutated into the same shit, just a Scam right now.)
+",False,www.reddit.com/r/claude/comments/1k2kfrh/trash_company/
+1jzid01,"Vibe Coding with Context: RAG and Anthropic & Qodo - Webinar (Apr 23, 2025)",1,0,2025-04-15 09:15:07,thumbsdrivesmecrazy,claude,https://www.reddit.com/r/claude/comments/1jzid01/vibe_coding_with_context_rag_and_anthropic_qodo/,"The webinar hosted by Qodo and Anthropic focuses on advancements in AI coding tools, particularly how they can evolve beyond basic autocomplete functionalities to support complex, context-aware development workflows. It introduces cutting-edge concepts like Retrieval-Augmented Generation (RAG) and Anthropic’s Model Context Protocol (MCP), which enable the creation of agentic AI systems tailored for developers: [Vibe Coding with Context: RAG and Anthropic](https://www.codium.ai/webinar/vibe-coding-with-context-rag-and-anthropic/)
+
+* How MCP works
+* Using Claude Sonnet 3.7 for agentic code tasks
+* RAG in action
+* Tool orchestration via MCP
+* Designing for developer flow",True,www.reddit.com/r/claude/comments/1jzid01/vibe_coding_with_context_rag_and_anthropic_qodo/
+1jyj5y2,"I've built a ""Cursor for data"" app and looking for beta testers",1,0,2025-04-14 03:26:20,jekapats,claude,https://www.cipher42.ai/,"Cipher42 is a ""Cursor for data"" which works by connecting to your database/data warehouse, indexing things like schema, metadata, recent used queries and then using it to provide better answers and making data analysts more productive. It took a lot of inspiration from cursor but for data related app cursor doesn't work as well as data analysis workloads are different by nature.",False,www.reddit.com/r/claude/comments/1jyj5y2/ive_built_a_cursor_for_data_app_and_looking_for/
+1jxnh7c,Advanced Scientific Validation Framework,1,0,2025-04-12 23:38:04,Critical-Elephant630,claude,https://www.reddit.com/r/claude/comments/1jxnh7c/advanced_scientific_validation_framework/,"HypothesisPro™ transforms scientific claims into rigorously evaluated conclusions through evidence-based methodological analysis. This premium prompt delivers comprehensive scientific assessments with minimal input, providing publication-quality analysis for any hypothesis.  
+[https://promptbase.com/prompt/advanced-scientific-validation-framework-2](https://promptbase.com/prompt/advanced-scientific-validation-framework-2)",True,www.reddit.com/r/claude/comments/1jxnh7c/advanced_scientific_validation_framework/
+1kf00vb,"Even though I'm a pro subscriber, after 3 hours of failed attempts Claude just gives up with ""This response paused because Claude reached its max length for a message..."" When I click continue I get the same error again and cannot even get the 600 lines of code we spent hours creating. Pathetic.",0,3,2025-05-05 07:05:46,Shedeurnfreude,claude,https://www.reddit.com/r/claude/comments/1kf00vb/even_though_im_a_pro_subscriber_after_3_hours_of/,edit: I did end up 1) canceling my Claude subscription 2) taking the partially completed code from Claude over to chatGPT that was able to finish the job after several more hours.,True,www.reddit.com/r/claude/comments/1kf00vb/even_though_im_a_pro_subscriber_after_3_hours_of/
+1jwkcqf,Cultural Epistemology Mapper™: Advanced Training System for Reasoning Diversity,0,0,2025-04-11 13:12:31,Critical-Elephant630,claude,https://www.reddit.com/r/claude/comments/1jwkcqf/cultural_epistemology_mapper_advanced_training/,"Premium Training Framework for Language Model Development
+
+
+
+This highly specialized prompt framework is designed for AI researchers, model trainers, and cognitive framework developers seeking to enhance model performance across diverse reasoning patterns and analytical approaches.
+
+
+
+\## Training Capabilities:
+
+
+
+The Cultural Epistemology Mapper™ systematically enhances model capabilities in:
+
+\- Multi-framework reasoning and perspective-shifting
+
+\- Identifying implicit assumptions within cognitive systems
+
+\- Developing meta-cognitive awareness of reasoning patterns
+
+\- Synthesizing diverse analytical approaches into coherent outputs
+
+\- Building cross-cultural intelligence and epistemological flexibility
+
+ Application Domains:
+
+
+
+This framework is optimized for training models across:
+
+\- Philosophical reasoning systems
+
+\- Scientific methodologies
+
+\- Cultural knowledge structures
+
+\- Professional domain epistemologies
+
+\- Belief system architectures
+
+
+
+\## Value Proposition:
+
+
+
+For model trainers, this framework delivers:
+
+1. \*\*Enhanced reasoning diversity\*\* - Expands model's analytical repertoire beyond Western frameworks
+
+2. \*\*Improved epistemological awareness\*\* - Builds recognition of knowledge construction principles
+
+3. \*\*Superior integration capacities\*\* - Develops ability to synthesize across seemingly incompatible systems
+
+4. \*\*Reduced reasoning biases\*\* - Mitigates dominant-framework preferences
+
+5. \*\*Scalable implementation\*\* - Easily adapted across thousands of training examples
+
+[https://promptbase.com/prompt/cultural-epistemology-mapper-2](https://promptbase.com/prompt/cultural-epistemology-mapper-2)",True,www.reddit.com/r/claude/comments/1jwkcqf/cultural_epistemology_mapper_advanced_training/

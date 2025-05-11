@@ -1,0 +1,271 @@
+2025-05-08 13:18:42,993 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 13:18:42,993 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 13:18:42,994 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 13:21:25,502 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 13:21:25,502 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 13:21:25,503 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 13:24:37,119 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 13:24:37,119 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 13:24:37,119 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 13:28:48,514 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 13:28:48,514 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 13:28:48,515 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 13:28:48,538 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 13:28:48,538 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 13:28:50,688 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 13:28:50,688 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 13:28:50,688 - INFO - reddit_pipeline.py:227-===== Starting Reddit ETL Pipeline====
+2025-05-08 13:28:51,299 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 13:28:53,246 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 13:28:54,813 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 13:28:56,420 - INFO - reddit_pipeline.py:143-Fetched 7 of posts from r/Claude
+2025-05-08 13:28:57,424 - INFO - reddit_pipeline.py:158-Extraction has been completed. 37 posts were extracted
+2025-05-08 13:28:57,425 - INFO - reddit_pipeline.py:237-Successfully extracted37
+2025-05-08 13:28:57,430 - INFO - reddit_pipeline.py:204-Created dataframe with 37 rows
+2025-05-08 13:28:57,445 - INFO - reddit_pipeline.py:240-Dataframe Head:
+   post_id  ...                                          permalink
+0  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+1  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+2  1kg5xq3  ...  www.reddit.com/r/dataengineering/comments/1kg5...
+3  1kg6uut  ...  www.reddit.com/r/dataengineering/comments/1kg6...
+4  1kf1uff  ...  www.reddit.com/r/dataengineering/comments/1kf1...
+
+[5 rows x 11 columns]
+2025-05-08 13:28:57,537 - INFO - reddit_pipeline.py:251-Successfully loaded into DB
+2025-05-08 13:30:34,471 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 13:30:34,471 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 13:30:34,472 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 13:30:34,496 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 13:30:34,496 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 13:30:36,206 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 13:30:36,206 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 13:30:36,206 - INFO - reddit_pipeline.py:227-===== Starting Reddit ETL Pipeline====
+2025-05-08 13:30:36,798 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 13:30:38,685 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 13:30:40,256 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 13:30:41,792 - INFO - reddit_pipeline.py:143-Fetched 7 of posts from r/Claude
+2025-05-08 13:30:42,792 - INFO - reddit_pipeline.py:158-Extraction has been completed. 37 posts were extracted
+2025-05-08 13:30:42,792 - INFO - reddit_pipeline.py:237-Successfully extracted37
+2025-05-08 13:30:42,798 - INFO - reddit_pipeline.py:204-Created dataframe with 37 rows
+2025-05-08 13:30:42,812 - INFO - reddit_pipeline.py:240-Dataframe Head:
+   post_id  ...                                          permalink
+0  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+1  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+2  1kg5xq3  ...  www.reddit.com/r/dataengineering/comments/1kg5...
+3  1kg6uut  ...  www.reddit.com/r/dataengineering/comments/1kg6...
+4  1kf1uff  ...  www.reddit.com/r/dataengineering/comments/1kf1...
+
+[5 rows x 11 columns]
+2025-05-08 13:30:42,910 - INFO - reddit_pipeline.py:251-Successfully loaded into DB
+2025-05-08 15:47:55,656 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 15:47:55,656 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 15:47:55,656 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 15:47:55,691 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 15:47:55,691 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 15:47:57,644 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 15:47:57,645 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 15:47:57,645 - INFO - reddit_pipeline.py:281-===== Starting Reddit ETL Pipeline====
+2025-05-08 15:47:58,362 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 15:48:00,206 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 15:48:01,844 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 15:48:03,380 - INFO - reddit_pipeline.py:143-Fetched 7 of posts from r/Claude
+2025-05-08 15:48:04,382 - INFO - reddit_pipeline.py:158-Extraction has been completed. 37 posts were extracted
+2025-05-08 15:48:04,382 - INFO - reddit_pipeline.py:291-Successfully extracted37
+2025-05-08 15:48:04,387 - INFO - reddit_pipeline.py:204-Created dataframe with 37 rows
+2025-05-08 15:48:04,399 - INFO - reddit_pipeline.py:294-Dataframe Head:
+   post_id  ...                                          permalink
+0  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+1  1kg5xq3  ...  www.reddit.com/r/dataengineering/comments/1kg5...
+2  1kg6uut  ...  www.reddit.com/r/dataengineering/comments/1kg6...
+3  1kf1uff  ...  www.reddit.com/r/dataengineering/comments/1kf1...
+4  1kdhmnn  ...  www.reddit.com/r/dataengineering/comments/1kdh...
+
+[5 rows x 11 columns]
+2025-05-08 15:48:04,437 - ERROR - reddit_pipeline.py:243-Error fectching existing ids
+2025-05-08 15:50:56,180 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 15:50:56,180 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 15:50:56,181 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 15:50:56,207 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 15:50:56,207 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 15:50:57,980 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 15:50:57,980 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 15:50:57,980 - INFO - reddit_pipeline.py:282-===== Starting Reddit ETL Pipeline====
+2025-05-08 15:50:58,897 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 15:51:00,742 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 15:51:02,339 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 15:51:03,856 - INFO - reddit_pipeline.py:143-Fetched 7 of posts from r/Claude
+2025-05-08 15:51:04,861 - INFO - reddit_pipeline.py:158-Extraction has been completed. 37 posts were extracted
+2025-05-08 15:51:04,861 - INFO - reddit_pipeline.py:292-Successfully extracted37
+2025-05-08 15:51:04,865 - INFO - reddit_pipeline.py:204-Created dataframe with 37 rows
+2025-05-08 15:51:04,877 - INFO - reddit_pipeline.py:295-Dataframe Head:
+   post_id  ...                                          permalink
+0  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+1  1kg5xq3  ...  www.reddit.com/r/dataengineering/comments/1kg5...
+2  1kg6uut  ...  www.reddit.com/r/dataengineering/comments/1kg6...
+3  1kf1uff  ...  www.reddit.com/r/dataengineering/comments/1kf1...
+4  1kdhmnn  ...  www.reddit.com/r/dataengineering/comments/1kdh...
+
+[5 rows x 11 columns]
+2025-05-08 15:51:04,914 - ERROR - reddit_pipeline.py:244-Error fectching existing ids
+2025-05-08 15:52:06,241 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 15:52:06,241 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 15:52:06,242 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 15:52:06,265 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 15:52:06,265 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 15:52:08,022 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 15:52:08,022 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 15:52:08,022 - INFO - reddit_pipeline.py:282-===== Starting Reddit ETL Pipeline====
+2025-05-08 15:52:08,598 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 15:52:10,476 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 15:52:12,089 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 15:52:15,210 - INFO - reddit_pipeline.py:143-Fetched 7 of posts from r/Claude
+2025-05-08 15:52:16,211 - INFO - reddit_pipeline.py:158-Extraction has been completed. 37 posts were extracted
+2025-05-08 15:52:16,211 - INFO - reddit_pipeline.py:292-Successfully extracted37
+2025-05-08 15:52:16,216 - INFO - reddit_pipeline.py:204-Created dataframe with 37 rows
+2025-05-08 15:52:16,231 - INFO - reddit_pipeline.py:295-Dataframe Head:
+   post_id  ...                                          permalink
+0  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+1  1kg5xq3  ...  www.reddit.com/r/dataengineering/comments/1kg5...
+2  1kg6uut  ...  www.reddit.com/r/dataengineering/comments/1kg6...
+3  1kf1uff  ...  www.reddit.com/r/dataengineering/comments/1kf1...
+4  1kdhmnn  ...  www.reddit.com/r/dataengineering/comments/1kdh...
+
+[5 rows x 11 columns]
+2025-05-08 15:52:16,263 - ERROR - reddit_pipeline.py:244-Error fectching existing ids
+2025-05-08 15:52:16,264 - INFO - reddit_pipeline.py:255-Attempting append the new posts to table 37
+2025-05-08 15:52:16,264 - ERROR - reddit_pipeline.py:262-Error: appending data to postgres
+2025-05-08 15:52:16,264 - WARNING - reddit_pipeline.py:308-Loading to DB is failed
+2025-05-08 15:54:04,816 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 15:54:04,816 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 15:54:04,817 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 15:54:04,840 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 15:54:04,840 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 15:54:07,114 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 15:54:07,114 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 15:54:07,114 - INFO - reddit_pipeline.py:282-===== Starting Reddit ETL Pipeline====
+2025-05-08 15:54:07,669 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 15:54:09,568 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 15:54:11,206 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 15:54:12,845 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Claude
+2025-05-08 15:54:13,847 - INFO - reddit_pipeline.py:158-Extraction has been completed. 40 posts were extracted
+2025-05-08 15:54:13,847 - INFO - reddit_pipeline.py:292-Successfully extracted40
+2025-05-08 15:54:13,852 - INFO - reddit_pipeline.py:204-Created dataframe with 40 rows
+2025-05-08 15:54:13,865 - INFO - reddit_pipeline.py:295-Dataframe Head:
+   post_id  ...                                          permalink
+0  1k3qw05  ...  www.reddit.com/r/dataengineering/comments/1k3q...
+1  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+2  1k6vl2l  ...  www.reddit.com/r/dataengineering/comments/1k6v...
+3  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+4  1jyrrh6  ...  www.reddit.com/r/dataengineering/comments/1jyr...
+
+[5 rows x 11 columns]
+2025-05-08 15:54:13,900 - ERROR - reddit_pipeline.py:244-Error fectching existing ids
+2025-05-08 15:54:13,901 - INFO - reddit_pipeline.py:255-Attempting append the new posts to table 40
+2025-05-08 15:54:13,901 - ERROR - reddit_pipeline.py:262-Error: appending data to postgres
+2025-05-08 15:54:13,901 - WARNING - reddit_pipeline.py:308-Loading to DB is failed
+2025-05-08 15:59:33,096 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 15:59:33,097 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 15:59:33,097 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 15:59:33,127 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 15:59:33,127 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 15:59:34,899 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 15:59:34,899 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 15:59:34,899 - INFO - reddit_pipeline.py:282-===== Starting Reddit ETL Pipeline====
+2025-05-08 15:59:35,512 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 15:59:37,461 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 15:59:39,112 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 15:59:40,921 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Claude
+2025-05-08 15:59:41,923 - INFO - reddit_pipeline.py:158-Extraction has been completed. 40 posts were extracted
+2025-05-08 15:59:41,923 - INFO - reddit_pipeline.py:292-Successfully extracted40
+2025-05-08 15:59:41,928 - INFO - reddit_pipeline.py:204-Created dataframe with 40 rows
+2025-05-08 15:59:41,944 - INFO - reddit_pipeline.py:295-Dataframe Head:
+   post_id  ...                                          permalink
+0  1k3qw05  ...  www.reddit.com/r/dataengineering/comments/1k3q...
+1  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+2  1k6vl2l  ...  www.reddit.com/r/dataengineering/comments/1k6v...
+3  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+4  1jyrrh6  ...  www.reddit.com/r/dataengineering/comments/1jyr...
+
+[5 rows x 11 columns]
+2025-05-08 15:59:41,982 - ERROR - reddit_pipeline.py:244-Error fectching existing ids
+2025-05-08 15:59:41,984 - INFO - reddit_pipeline.py:255-Attempting append the new posts to table 40
+2025-05-08 15:59:41,984 - ERROR - reddit_pipeline.py:262-Error: appending data to postgres
+2025-05-08 15:59:41,984 - WARNING - reddit_pipeline.py:308-Loading to DB is failed
+2025-05-08 16:08:47,605 - INFO - reddit_pipeline.py:19-Logging configured and Script is starting
+2025-05-08 16:08:47,605 - INFO - reddit_pipeline.py:20-Loading the .env variables
+2025-05-08 16:08:47,606 - INFO - reddit_pipeline.py:45-Processing Configurations...
+2025-05-08 16:08:47,629 - INFO - reddit_pipeline.py:89-Created DB engine successfully
+2025-05-08 16:08:47,629 - INFO - reddit_pipeline.py:99-credentials loaded successfully
+2025-05-08 16:08:49,287 - INFO - reddit_pipeline.py:111-Authenticated as : ramseywinster
+2025-05-08 16:08:49,287 - INFO - reddit_pipeline.py:112-Authentication is suceesful
+2025-05-08 16:08:49,287 - INFO - reddit_pipeline.py:283-===== Starting Reddit ETL Pipeline====
+2025-05-08 16:08:49,915 - INFO - reddit_pipeline.py:144-Fetched 10 of posts from r/dataengineering
+2025-05-08 16:08:51,860 - INFO - reddit_pipeline.py:144-Fetched 10 of posts from r/Python
+2025-05-08 16:08:53,601 - INFO - reddit_pipeline.py:144-Fetched 10 of posts from r/datascience
+2025-05-08 16:08:55,283 - INFO - reddit_pipeline.py:144-Fetched 10 of posts from r/Claude
+2025-05-08 16:08:56,283 - INFO - reddit_pipeline.py:159-Extraction has been completed. 40 posts were extracted
+2025-05-08 16:08:56,283 - INFO - reddit_pipeline.py:293-Successfully extracted40
+2025-05-08 16:08:56,288 - INFO - reddit_pipeline.py:205-Created dataframe with 40 rows
+2025-05-08 16:08:56,303 - INFO - reddit_pipeline.py:296-Dataframe Head:
+   post_id  ...                                          permalink
+0  1k3qw05  ...  www.reddit.com/r/dataengineering/comments/1k3q...
+1  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+2  1k6vl2l  ...  www.reddit.com/r/dataengineering/comments/1k6v...
+3  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+4  1jyrrh6  ...  www.reddit.com/r/dataengineering/comments/1jyr...
+
+[5 rows x 11 columns]
+2025-05-08 16:08:56,337 - ERROR - reddit_pipeline.py:245-Error fectching existing ids
+2025-05-08 16:08:56,339 - INFO - reddit_pipeline.py:256-Attempting append the new posts to table top_posts
+2025-05-08 16:08:56,339 - ERROR - reddit_pipeline.py:263-Error: appending data to postgres
+2025-05-08 16:08:56,339 - WARNING - reddit_pipeline.py:309-Loading to DB is failed
+2025-05-08 16:20:11,526 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 16:20:11,526 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 16:20:11,526 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 16:20:11,551 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 16:20:11,551 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 16:20:13,331 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 16:20:13,331 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 16:20:13,331 - INFO - reddit_pipeline.py:227-===== Starting Reddit ETL Pipeline====
+2025-05-08 16:20:13,944 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/dataengineering
+2025-05-08 16:20:15,992 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Python
+2025-05-08 16:20:17,628 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/datascience
+2025-05-08 16:20:19,265 - INFO - reddit_pipeline.py:143-Fetched 10 of posts from r/Claude
+2025-05-08 16:20:20,270 - INFO - reddit_pipeline.py:158-Extraction has been completed. 40 posts were extracted
+2025-05-08 16:20:20,270 - INFO - reddit_pipeline.py:237-Successfully extracted40
+2025-05-08 16:20:20,274 - INFO - reddit_pipeline.py:204-Created dataframe with 40 rows
+2025-05-08 16:20:20,287 - INFO - reddit_pipeline.py:240-Dataframe Head:
+   post_id  ...                                          permalink
+0  1k3qw05  ...  www.reddit.com/r/dataengineering/comments/1k3q...
+1  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+2  1k6vl2l  ...  www.reddit.com/r/dataengineering/comments/1k6v...
+3  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+4  1jyrrh6  ...  www.reddit.com/r/dataengineering/comments/1jyr...
+
+[5 rows x 11 columns]
+2025-05-08 16:20:20,385 - INFO - reddit_pipeline.py:251-Successfully loaded into DB
+2025-05-08 16:21:17,318 - INFO - reddit_pipeline.py:18-Logging configured and Script is starting
+2025-05-08 16:21:17,318 - INFO - reddit_pipeline.py:19-Loading the .env variables
+2025-05-08 16:21:17,319 - INFO - reddit_pipeline.py:44-Processing Configurations...
+2025-05-08 16:21:17,342 - INFO - reddit_pipeline.py:88-Created DB engine successfully
+2025-05-08 16:21:17,342 - INFO - reddit_pipeline.py:98-credentials loaded successfully
+2025-05-08 16:21:19,165 - INFO - reddit_pipeline.py:110-Authenticated as : ramseywinster
+2025-05-08 16:21:19,165 - INFO - reddit_pipeline.py:111-Authentication is suceesful
+2025-05-08 16:21:19,165 - INFO - reddit_pipeline.py:227-===== Starting Reddit ETL Pipeline====
+2025-05-08 16:21:20,132 - INFO - reddit_pipeline.py:143-Fetched 20 of posts from r/dataengineering
+2025-05-08 16:21:22,340 - INFO - reddit_pipeline.py:143-Fetched 20 of posts from r/Python
+2025-05-08 16:21:24,489 - INFO - reddit_pipeline.py:143-Fetched 20 of posts from r/datascience
+2025-05-08 16:21:26,436 - INFO - reddit_pipeline.py:143-Fetched 20 of posts from r/Claude
+2025-05-08 16:21:27,438 - INFO - reddit_pipeline.py:158-Extraction has been completed. 80 posts were extracted
+2025-05-08 16:21:27,438 - INFO - reddit_pipeline.py:237-Successfully extracted80
+2025-05-08 16:21:27,442 - INFO - reddit_pipeline.py:204-Created dataframe with 80 rows
+2025-05-08 16:21:27,454 - INFO - reddit_pipeline.py:240-Dataframe Head:
+   post_id  ...                                          permalink
+0  1k3qw05  ...  www.reddit.com/r/dataengineering/comments/1k3q...
+1  1kc2mff  ...  www.reddit.com/r/dataengineering/comments/1kc2...
+2  1k6vl2l  ...  www.reddit.com/r/dataengineering/comments/1k6v...
+3  1kfdl1e  ...  www.reddit.com/r/dataengineering/comments/1kfd...
+4  1jyrrh6  ...  www.reddit.com/r/dataengineering/comments/1jyr...
+
+[5 rows x 11 columns]
+2025-05-08 16:21:27,556 - INFO - reddit_pipeline.py:251-Successfully loaded into DB
