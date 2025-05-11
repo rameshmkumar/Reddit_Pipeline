@@ -1,4 +1,4 @@
-# 🛠 Reddit Pipeline with Logging & Error Handling
+# 🛠 Reddit ETL Pipeline with Logging & Error Handling
 
 This project is a robust Python pipeline that extracts, transforms, and loads (ETL) top posts from selected subreddits using the Reddit API (PRAW) and stores them in a PostgreSQL database. It was built as part of my self-improvement journey to sharpen my skills in automation, logging, error handling, and working with APIs and databases.
 
